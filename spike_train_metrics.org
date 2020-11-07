@@ -3,7 +3,7 @@
 :END:
 #+title: Spike Train Metrics
 
-- tags ::  [[id:54691107-81a0-4d7b-8c51-d8a74bde7f86][Spiking Neural Networks]]
+- tags ::  {[Spiking Neural Networks]}
 
 We study spike train metrics to quantify differences between event
 sequences. These metrics apply at both the single-neuron level and the
@@ -74,7 +74,7 @@ spike intervals, rather than individual times. We again introduce 2
 elementary steps:
 
 1. Insertion or deletion of an interspike interval, having a cost
-   of 1. 
+   of 1.
 2. Shortening or lengthening an existing interspike interval. This is
    equal to $q \Delta T$ where $\Delta T$ is the amount of time by
    which the interval has been lengthened or shortened.
@@ -178,4 +178,3 @@ d(A, B)=\left(\int_{-\infty}^{\infty} \sum_{l=1}^{L}\left|A_{l}(t)-B_{l}(t)\righ
 for each of their components.
 
 bibliography:biblio.bib
-

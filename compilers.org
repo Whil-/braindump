@@ -100,7 +100,7 @@ Attributes for tokens distinguish two lexemes belonging to the same symbol table
 
 Since the lexical analyzer needs to split splits into token
 classes, it must be specify the set of strings that belongs into a
-token class. To do so, we use [[id:06f1342f-29d6-4647-a8f2-05eadc695f55][regular languages]].
+token class. To do so, we use {[Theory Of Computation » Regular Expressions]}.
 
 #+caption: Cycle of constructions
 [[file:images/compilers/screenshot_2019-09-25_16-21-45.png]]
@@ -124,7 +124,7 @@ implementation:
 
 * Syntax Definition
 
-We use [[id:da28f8a3-35f4-42e9-9a8e-c54cc32555a0][Context-free Grammars]] to specify the syntax of a language.
+We use {[Theory Of Computation » Context-free Grammars and Languages]} to specify the syntax of a language.
 
 A grammar for arithmetic expressions can be constructed from a table
 showing the associativity and precedence of operators.
@@ -149,7 +149,7 @@ precedence:
 
 * Parsing
 
-Parsers use [[id:1c414780-37b3-4266-a6be-26aba08babbb][pushdown automata]] to do parsing. See [[http://jsmachines.sourceforge.net/machines/][LR online parsing
+Parsers use {[Theory Of Computation » Pushdown Automata]} to do parsing. See [[http://jsmachines.sourceforge.net/machines/][LR online parsing
 machines]] for an online parsing tool.
 
 ** Recursive-Descent Parsing
@@ -407,7 +407,7 @@ Dynamic storage allocation is handled with 2 strategies:
                   allocated here
 
 Garbage collection enables the run-time system to detect useless data
-elements and reuse their storage. 
+elements and reuse their storage.
 
 ** Activation Trees
 
@@ -518,7 +518,7 @@ If a procedure p is nested immediately within procedure q in the
 source code, then the access link in any activation of p points to the
 most recent activation of q. Access links form a chain from the
 activation record at the top of the stack to a sequence of activations
-at progressively lower nesting depths. 
+at progressively lower nesting depths.
 
 When procedure q calls procedure p, we consider 2 cases:
 
@@ -594,7 +594,7 @@ leaving the rest in slow-but-large storage.
 Free chunks of memory are called holes. With each allocation of
 memory, the memory manager must place the requested chunk of memory in
 a large enough hole. Over time, holes will be split into smaller holes
-for allocation. 
+for allocation.
 
 Contiguous holes are coalesced into larger holes. However, free memory
 may end up being fragmented, where a large number of small,
@@ -681,7 +681,7 @@ complexity of managing memory:
      is efficient, since the deletion occurs in a wholesale fashion.
      This is useful when a collection of objects have lifetimes
      associated with phases of computation.
-     
+
 *** Garbage collection Design Goals
 
 We assume that objects have types that can be determined at run-time.
@@ -810,6 +810,6 @@ constants, and regular definitions.
 The translation rules have form: Pattern { Action }.
 
 Each pattern is a regular expression, which may use the definitions of
-the declaration section. The actions are fragments of code. 
+the declaration section. The actions are fragments of code.
 
 The auxiliary functions section contains used in these actions.

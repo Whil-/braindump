@@ -29,7 +29,7 @@ polarity at each pixel. This preserves spatial relationships between events,
 while maintaining the most recent temporal information at each pixel, and
 providing a fixed number of channels for any event stream.
 
-They also introduced a [[id:eecde484-c101-40f6-a099-9cf4a95b832a][Self-supervised Learning]] method, using a photometric loss
+They also introduced a {[Self-supervised Learning]} method, using a photometric loss
 as a supervisory signal, without supervision from ground-truth flow.
 
 ** Event Representation

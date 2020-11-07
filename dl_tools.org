@@ -3,7 +3,7 @@
 :END:
 #+title: Deep Learning Tools
 
-- tags :: [[id:d08c28f3-9c67-4ae5-b3b2-af600a1173c0][Deep Learning]]
+- tags :: {[Deep Learning]}
 
 * Tensorflow
 ** What is Tensorflow
@@ -137,7 +137,7 @@ following information:
 #+end_src
 
 *** Eval
-When ~model_fn~ is called with ~mode == ModeKeys.EVAL~, the model function must evaluate the model, returning loss. 
+When ~model_fn~ is called with ~mode == ModeKeys.EVAL~, the model function must evaluate the model, returning loss.
 
 #+begin_src python
   # To calculate the loss, we need to convert our labels
@@ -162,7 +162,7 @@ We can also compute and return additional metrics.
 
 *** Train
 When ~model_fn~ is called with ~mode == ModeKeys.TRAIN~, the model
-function must train the model. 
+function must train the model.
 
 #+begin_src python
   optimizer = tf.train.AdagradOptimizer(0.05)
@@ -185,7 +185,7 @@ https://developers.googleblog.com/2017/11/introducing-tensorflow-feature-columns
 #+downloaded: https://3.bp.blogspot.com/-3Wf_6BEn7GE/Wg4GiQ9TXDI/AAAAAAAAEGo/yoLiIyJW1c4Vh-VfP4vVjuaD92rcnVphACLcBGAs/s1600/2.jpg @ 2018-09-15 15:03:18
 [[file:images/tensorflow/2_2018-09-15_15-03-18.jpg]]
 
-Feature columns bridge raw data with the data your model needs. 
+Feature columns bridge raw data with the data your model needs.
 
 There are nine functions in the ~tf.feature_column~ api.
 *** Numeric column
@@ -198,7 +198,7 @@ There are nine functions in the ~tf.feature_column~ api.
                                                            shape=10)
 
   matrix_feature_column = tf.feature_column.numeric_column(key="MyMatrix",
-                                                           shape=[10,5]) 
+                                                           shape=[10,5])
 #+end_src
 
 *** Bucketized column
@@ -238,10 +238,10 @@ This is a one-hot encoding, not a binary numerical encoding.
   # Create a categorical output for input "feature_name_from_input_fn",
   # which must be of integer type. Value is expected to be >= 0 and < num_buckets
   identity_feature_column = tf.feature_column.categorical_column_with_identity(
-      key='feature_name_from_input_fn', 
+      key='feature_name_from_input_fn',
       num_buckets=4) # Values [0, 4)
 
-  # The 'feature_name_from_input_fn' above needs to match an integer key that is 
+  # The 'feature_name_from_input_fn' above needs to match an integer key that is
   # returned from input_fn (see below). So for this case, 'Integer_1' or
   # 'Integer_2' would be valid strings instead of 'feature_name_from_input_fn'.
   # For more information, please check out Part 1 of this blog series.
@@ -271,12 +271,12 @@ columns provide a good way to represent strings as a one-hot vector.
           vocabulary_list=["kitchenware", "electronics", "sports"])
 
   # Given input "feature_name_from_input_fn" which is a string,
-  # create a categorical feature to our model by mapping the input to one of 
+  # create a categorical feature to our model by mapping the input to one of
   # the elements in the vocabulary list.
   vocabulary_feature_column =
       tf.feature_column.categorical_column_with_vocabulary_list(
           key="feature_name_from_input_fn",
-          vocabulary_list=["kitchenware", "electronics", "sports"]) 
+          vocabulary_list=["kitchenware", "electronics", "sports"])
 #+end_src
 
 In many cases, the number of categories is large, and we can limit it
@@ -457,7 +457,7 @@ https://www.tensorflow.org/performance/datasets_performance
 If you are working on custom architectures, we suggest using tf.keras
 to build your models instead of Estimator. cite:tensorflow_stand_keras
 
-* Keras 
+* Keras
 Keras is a high-level neural networks API, compatible with multiple
 backends. cite:home_keras_docum As of Tensorflow 2.0, Keras will be
 the primary API for building neural networks.
@@ -488,5 +488,5 @@ layers.
   classes = model.predict(x_test, batch_size=128)
 #+end_src
 
-*** 
+***
 bibliography:biblio.bib

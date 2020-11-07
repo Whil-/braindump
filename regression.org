@@ -3,7 +3,7 @@
 :END:
 #+title: Regression
 
-- tags :: [[id:3ec39abc-ea53-4087-8523-7ace154c6aa6][Statistics]], [[id:7f0fcd68-3fc2-4936-929c-51ef11ffe862][Bayesian Statistics]]
+- tags :: {[Statistics]}, {[Bayesian Statistics]}
 
 * Introduction
 
@@ -344,7 +344,7 @@ by:
 
 where $s_y$ and $s_j$ are the standard deviations of the response and
 jth predictor variable respectively. The standardized variables have
-mean zero and unit standard deviations. 
+mean zero and unit standard deviations.
 
 Since correlations are unaffected by centering or scaling, it is
 sufficient and convenient to deal with either unit-length scaled or
@@ -389,7 +389,7 @@ correlation coefficient $\mathrm{Cor}(Y, \hat{Y})$. The coefficient of
 determination $R^2 = [\mathrm{Cor}(Y, \hat{Y})]^2$ may be interpreted
 as the proportion of total variability in the response variables $Y$
 that can be accounted for by the set of predictor variables $X_1, X_2,
-\dots, X_p$. 
+\dots, X_p$.
 
 A quantity related to $R^2$ knows as the adjusted R-squared, $R_a^2$,
 is also used for judging the goodness of fit. It is defined as:
@@ -565,7 +565,7 @@ We can analyze the importance of the interaction term by looking at
 its p-value. The hierarchical principle states that if we include an
 interaction in a model, we should also include the main effects, even
 if the p-values associated with their coefficients are not
-significant. 
+significant.
 
 How can we remove the assumption of linearity? A simple way is to use
 polynomial regression.
@@ -701,7 +701,7 @@ In fitting a model to a given body of data, we would like to ensure
 that the fit is not overly determined by one or a few observations.
 The distribution theory, confidence intervals, and tests of hypotheses
 are valid and have meaning only if the standard regression assumptions
-are satisfied. 
+are satisfied.
 
 ** The Standard Regression Assumptions
 
@@ -730,7 +730,7 @@ data transformations can lead to linearity.
   \dots, \epsilon_n$ are assumed to be independently and identically
   distributed normal random variables each with mean zero and a
   common variance $\sigma^2$. Four assumptions are made here:
-   
+
    - The error $\epsilon_i$ has a normal distribution. This normality
      assumption can be validated by examining appropriate graphs of
      the residuals.
@@ -878,12 +878,12 @@ unbiased estimate, we get:
 
 which is a monotonic transformation of $r_i$. This is termed the
 externally studentized residual. The standardized residuals do not sum
-to zero, but they all have the same variance. 
+to zero, but they all have the same variance.
 
-The externally standardized residuals follow a t-distribution with n - p - 2 degrees 
-of freedom, but the internally standardized residuals do not. However, with a 
-moderately large sample, these residuals should approximately have a standard 
-normal distribution. The residuals are not strictly independently distributed, but 
+The externally standardized residuals follow a t-distribution with n - p - 2 degrees
+of freedom, but the internally standardized residuals do not. However, with a
+moderately large sample, these residuals should approximately have a standard
+normal distribution. The residuals are not strictly independently distributed, but
 with a large number of observations, the lack of independence may be
 ignored.
 
@@ -908,7 +908,7 @@ These graphs indicate whether the variable is symmetric, or skewed.
 When a variable is skewed, it should be transformed, generally
 using a logarithmic transformation. Univariate graphs also point out
 the presence of outliers in the variables. However, no observations
-should be deleted at this stage. 
+should be deleted at this stage.
 
 *2. Two-dimensional graphs*
 

@@ -3,7 +3,7 @@
 :END:
 #+title: Markov Chains
 
-- tags :: [[id:142c8033-00a7-4a2a-83e5-33e1349ade5a][Stochastic Processes]]
+- tags :: {[Stochastic Processes]}
 
 * Introduction
 
@@ -160,4 +160,4 @@ These long run proportions $\pi_j, j \ge 0$ are often called
 stationary probabilities. The reason being that if the initial state
 is chosen according to probabilities $\pi_j, j \ge 0$, then the
 probability of being in state $j$ at any time $n$ is also equal to
-$\pi_j$. 
+$\pi_j$.

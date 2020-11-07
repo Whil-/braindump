@@ -3,14 +3,14 @@
 :END:
 #+title: EKF Localization
 
-- tags :: [[id:9c0ebb8f-6582-4daf-bb84-7aa299c2d204][Robot Localization]], [[id:8f573bd6-87d8-4fe2-81e9-6357752469c4][Markov Localization]], [[id:589b03e3-0c60-434f-97f4-3b1f0ecb6abb][Grid & Monte Carlo Localization]]
+- tags :: {[Robot Localization]}, {[Markov Localization]}, {[Grid & Monte Carlo Localization]}
 
 * EKF localization
 
 EKF localization assumes that the map is represented by a collection
 of features. At any point in time $t$, the robot gets to observe a
 vector of ranges and bearings to nearby features:
-$z_{t}=\left\{z_{t}^{1}, z_{t}^{2}, \ldots\right\}$. 
+$z_{t}=\left\{z_{t}^{1}, z_{t}^{2}, \ldots\right\}$.
 
 The easiest localization algorithm assumes all features are uniquely
 identifiable, although this assumption can be corrected for. This

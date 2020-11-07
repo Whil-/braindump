@@ -25,7 +25,7 @@ algorithms to exploit this structure?
 :ID:       9a6d9b02-1efe-487c-bba7-8cabe0dc556f
 :END:
 
-[[id:ff243a09-9980-4738-b638-0521cc2bbf42][Empirical Risk Minimization]] is too strong: data is not i.i.d, not batched, not
+{[Empirical Risk Minimization]} is too strong: data is not i.i.d, not batched, not
 in the model class. Solution: use online learning, that makes minimal
 assumptions.
 
@@ -36,10 +36,10 @@ Model Predictive Control is an effective approach to handling challenging
 dynamic environments with simple models, because it allows for local
 optimization of simple policies.
 
-[[id:be63d7a1-322e-40df-a184-90ad2b8aabb4][Reinforcement Learning]] can learn complex policies, and is often state-of-the-art
+{[Reinforcement Learning]} can learn complex policies, and is often state-of-the-art
 in simulated environments and games. However, the algorithms are data-hungry,
 and the objective function is non-convex and difficult to optimize.
 
-[[id:7ecd7d57-00d1-4a58-9061-105e1c324850][Imitation Learning]] provides a general way to accelerate policy learning, by
+{[Imitation Learning]} provides a general way to accelerate policy learning, by
 leveraging models/simulators and experts. We can leverage surrogate objective
 functions that are easier to optimize.

@@ -51,7 +51,7 @@ in the input particle set $X_{t-1}$.
     \For {$m = 1 \text{ to } M$}
     \State sample $x_t^{[m]} \sim p(x_t | u_t, x_{t-1}^{[m]})$
     \State $w_t^{[m]} = p(z_t | x_t^{[m]})$
-    \State $\overline{X}_t = \overline{X}_t + \langle x_t^{[m]} , w_t^{[m]} \rangle$   
+    \State $\overline{X}_t = \overline{X}_t + \langle x_t^{[m]} , w_t^{[m]} \rangle$
     \EndFor
     \For {$m = 1 \text{ to } M$}
     \State draw $i$ with probability $\proportional w_t^{[i]}$
@@ -70,7 +70,7 @@ draws with replacement $M$ particles from $\overline{X}_t$. Whereas
 $\overline{X}_t$ is distributed according to
 $\overline{\text{bel}}(x_t)$, the resampling causes them to be
 distributed according to the posterior $\text{bel}(x_t) = \eta p(z_t |
-x_t^{[m]})\overline{\text{bel}}(x_t)$. (see [[id:9a108a6e-8c01-49db-813d-6dcfe5825a4d][Importance Sampling]])
+x_t^{[m]})\overline{\text{bel}}(x_t)$. (see {[Importance Sampling]})
 
 * Properties
 

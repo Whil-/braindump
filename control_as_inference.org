@@ -3,7 +3,7 @@
 :END:
 #+title: Control As Inference
 
-- tags :: [[id:f1f42d87-f292-4654-bfbf-949bfa18d88f][Optimal Control and Planning]], [[id:be63d7a1-322e-40df-a184-90ad2b8aabb4][Reinforcement Learning ⭐]]
+- tags :: {[Optimal Control and Planning]}, {[Reinforcement Learning]}
 
 #+caption: PGM for decision making for the first 3 time-steps
 [[file:images/human_behaviour_as_optimal_control/screenshot2019-12-24_19-20-19_.png]]
@@ -23,13 +23,13 @@ If we choose $p(O_t | s_t, a_t) = \mathrm{exp}(r(s_t, a_t))$, then:
                                 r(s_t, a_t) \right)
 \end{align}
 
-With this [[id:8b667a99-5a9a-40db-b3c2-58888c4edc46][Probabilistic Graph Model]], we can:
+With this {[Probabilistic Graph Models]}, we can:
 
 1. model sub-optimal behaviour (important for inverse RL)
 2. can apply inference algorithms to solve control and planning problems
 3. provides an explanation for why stochastic behaviour may be
    preferred (useful for exploration and transfer learning)
-  
+
 * Inference
 
 1. compute [[*Backward Messages][backward messages]] $\beta_t (s_t, a_t) =
@@ -122,7 +122,7 @@ One can also add a temperature: $\pi(a_t | s_t) =
   p(s_t) \propto \beta_t(s_t) \alpha_t(s_t)
 \end{equation}
 
-same derivations as [[id:e1d57bed-9909-4fe2-a0bb-cd4106280285][Hidden Markov Model]]!
+same derivations as {[Hidden Markov Model]}!
 
 #+downloaded: screenshot @ 2019-12-24 20:04:20
 [[file:images/human_behaviour_as_optimal_control/screenshot2019-12-24_20-04-20_.png]]
@@ -136,7 +136,7 @@ same derivations as [[id:e1d57bed-9909-4fe2-a0bb-cd4106280285][Hidden Markov Mod
 For more, see cite:levine18_reinf_learn_contr_as_probab_infer.
 
 * Resources
-- [[https://www.youtube.com/watch?v=Pei6G8_3r8I&list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A&index=13][CS285 Fa19 10/16/19 - YouTube]] 
+- [[https://www.youtube.com/watch?v=Pei6G8_3r8I&list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A&index=13][CS285 Fa19 10/16/19 - YouTube]]
 
 
 bibliography:biblio.bib

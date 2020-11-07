@@ -6,8 +6,8 @@
 #+title: You and Your Research - Richard Hamming
 
 - source :: http://www.cs.virginia.edu/~robins/YouAndYourResearch.html
-- author :: [[id:b3b67b6b-d063-46e5-85b4-a06ee5e65404][Richard Hamming]]
-- tags :: [[id:63384aa8-5da8-41c5-96aa-17f7925c274f][Research]]
+- author :: {[Richard Hamming]}
+- tags :: {[Research]}
 
 #+begin_quote
 Our society frowns on people who set out to do really good work.
@@ -26,7 +26,7 @@ After information theory, what could Shannon possibly do for an encore?
 
 *It is not sufficient to do a good job, you have to sell it.* You have to learn to write clearly and well so people will read it, you must learn to give reasonably formal talks, and you also must learn to give informal talks.
 
-The people who do great work with less ability but who are committed to it, get more done than those who have great skill and dabble in it. 
+The people who do great work with less ability but who are committed to it, get more done than those who have great skill and dabble in it.
 
 Good scientists will fight the system rather than learn to work with the systm and take advantage of all the system has to offer. Good scientists are also optimistic, on the lookout for the positive things, instead of the negative.
 

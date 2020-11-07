@@ -3,7 +3,7 @@
 :END:
 #+title: Occam's Razor
 
-- tags :: [[id:f4be59db-9bdb-4832-82e2-327c16b3ce15][Information Theory]]
+- tags :: {[Information Theory]}
 
 Occam's razor is the principle that states a preference for simpler
 models. This is not just a philosophical choice: Bayesian
@@ -35,7 +35,7 @@ Source: [[https://statmodeling.stat.columbia.edu/2011/12/04/david-mackay-and-occ
 
 Gelman is not fond of Mackay's above argument about Bayesian inference
 embodying Occam razor. His argument seems to be about wanting to keep
-more complex models: 
+more complex models:
 
 #+begin_quote
 once I’ve set up a model I’d like to keep all of

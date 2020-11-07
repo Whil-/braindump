@@ -3,7 +3,7 @@
 :END:
 #+title: Metropolis-Hastings Method
 
-In [[id:9a108a6e-8c01-49db-813d-6dcfe5825a4d][Importance Sampling]] and [[id:e586c765-6a02-47f0-b92d-be313777de2f][Rejection Sampling]], the proposal
+In {[Importance Sampling]} and {[Rejection Sampling]}, the proposal
 distribution $q(x)$ needs to be similar to $p(x)$. The
 Metropolis-Hastings method uses a proposal density $q(x;x^(t))$ that
 is dependent on the current state $x^(t)$. A simple distribution such
@@ -27,4 +27,3 @@ as a Gaussian centered on $x^(t)$ can be used.
 
 Hamiltonian Monte-Carlo methods make use of gradient information to
 reduce random-walk behaviour.
-

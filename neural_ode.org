@@ -5,7 +5,7 @@
 #+roam_alias: "Neural ODE"
 #+roam_key: cite:chen18_neural_ordin_differ_equat
 #+options: toc:nil
-- tags :: [[id:fb39fedd-bece-4d0c-998d-e57d7a712408][Machine Learning Algorithms]], [[id:142c8033-00a7-4a2a-83e5-33e1349ade5a][Stochastic Processes]]
+- tags :: {[Machine Learning Algorithms]}, {[Stochastic Processes]}
 
 bibliographystyle:unsrt
 
@@ -40,7 +40,7 @@ method, to Runge-Kutta methods.
 Suppose now that we have some dynamic system (for example, the
 pendulum), and we have measured some data from the system
 $\hat{\theta}(t)$ (the pendulum's position, at time $t$). *Can a neural
-network learn the dynamics of the system from data?* 
+network learn the dynamics of the system from data?*
 
 Regular neural networks states are transformed by a series of discrete
 transformations:
@@ -63,7 +63,7 @@ occur at irregular intervals. This means that the current
 state-of-the-art neural networks are still unable to model continuous
 sequential data.
 
-* The Analogy to Residual Neural Networks 
+* The Analogy to Residual Neural Networks
 
 In neural networks, every layer introduces error that compounds through the neural
 network, hindering overall performance. The only way to bypass this is
@@ -72,7 +72,7 @@ that the highest performing neural networks would have infinite
 layers, and infinitesimal step-changes, an infeasible task.
 
 To address this problem, deep residual neural networks were presented
-cite:he15_deep_resid_learn_image_recog. 
+cite:he15_deep_resid_learn_image_recog.
 
 Instead of learning $h_{t+1} = f(h_t, \theta_t)$, deep residual neural
 networks now learn the difference between the layers: $h_{t+1} = h_t +
@@ -220,7 +220,7 @@ represent certain flows that Neural ODEs cannot.
 To understand Neural ODEs, I referenced several implementations.
 First, I ran the [[https://github.com/rtqichen/torchdiffeq][implementation provided with the paper]]. With the
 provided code, it was easy to reproduce the results of the Neural ODE
-model for MNIST. 
+model for MNIST.
 
 To further understand the how to write solvers for ODEs and the
 Adjoint method, I referenced the [[https://github.com/kmkolasinski/deep-learning-notes/tree/master/seminars/2019-03-Neural-Ordinary-Differential-Equations][implementations from a seminar]]. The
@@ -246,7 +246,7 @@ dataset is too large, and the sub-gradients cannot fit into memory.
 
 A use-case that I have not seen discussed with the introduction of
 Neural ODEs is the ability to introduce structure to the machine
-learning models. 
+learning models.
 
 Suppose we have collected data from some known dynamic system, and
 wish to learn the system. Traditional machine learning models have no
@@ -267,7 +267,7 @@ This paper presented a new family of models called Neural ODEs. They
 naturally arise by taking the continuous limit in residual neural
 networks. The paper proposes a numerically unstable, but empirically
 working method for performing back-propagation through black-box ODE
-solvers, making training neural ODEs feasible. 
+solvers, making training neural ODEs feasible.
 
 While not novel, this paper brought into the limelight the idea of
 marrying differential equations with machine-learning, an area that
@@ -275,14 +275,14 @@ has seemingly a lot of potential.
 
 From experimentation, I find that Neural ODEs are still difficult to
 train beyond simple problems, and mathematical theory shows that the
-choice of the ODE solver is still important. 
+choice of the ODE solver is still important.
 
 In this review, I did not cover the applications of Neural ODEs in
 other areas. First, they have a particularly convenient formulation
 for Continuous Normalizing Flows. Normalizing flows is a technique for
 sampling from complex distributions via sampling from a simple
 distribution, and has applications in techniques like variational
-inference. 
+inference.
 
 EDIT: During NeurIPS 2019, [[https://slideslive.com/38921897/retrospectives-a-venue-for-selfreflection-in-ml-research-4][David Duvenaud reflects on the claims and
 the hype of the Neural ODE paper]].

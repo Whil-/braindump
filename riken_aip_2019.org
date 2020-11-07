@@ -17,7 +17,7 @@ Optimal convergence rate is $O(n^{-\frac{1}{2}})$.
 
 ** Unsupervised Classification
 Since collecting labelled samples is costly, we can learn a classifier
-from unlabelled data. This is equivalent to clustering 
+from unlabelled data. This is equivalent to clustering
 
 ** Semi-supervised Classification
 - Use a large number of unlabelled samples and a small number of
@@ -71,7 +71,7 @@ If we have positive data with confidence, we can train a classifier.
 Others: Similar-unlabelled etc.
 
 * Fast Computation of Uncertainty in Deep Learning
-- author :: [[id:46325268-88a7-4873-9b84-c3ffb7090325][Emtiyaz Khan]]
+- author :: {[Emtiyaz Khan]}
 - links :: https://emtiyaz.github.io/
 
 Uncertainty quantifies the confidence in the prediction of a model,
@@ -112,7 +112,7 @@ Gaussian Process (GP) Models for Big Data.
 ** Gaussian Process
 - Is a rich class of Bayesian, non-parametric models
 - A GP is a collection of rvs any finite subset of which belongs to a
-  univariate 
+  univariate
 
 ** Task Setting
 - Agent explores unknown environment modelled by GP
@@ -127,4 +127,3 @@ Gaussian Process (GP) Models for Big Data.
 - R_1 Lipschitz continuous (current measurement)
 - R_2 Lipschitz continuous after convolution with Gaussian kernel (current measurement)
 - R_3 Location History, independent of current measurement
-

@@ -3,7 +3,7 @@
 :END:
 #+title: Actor-Critic
 
-Actor-Critic improves on [[id:f90ef3b7-3d35-4af3-ba8f-00d27c6fa3c5][Policy Gradients]] methods by introducing a
+Actor-Critic improves on {[Policy Gradients]} methods by introducing a
 critic.
 
 Recall the objective:
@@ -140,7 +140,7 @@ the infinite sum (think about what happens when $\gamma$ gets bigger).
 [[file:images/actor_critic/screenshot2019-12-16_18-02-09_.png]]
 online actor-critic uses a single sample batch, which is a bad idea in
 large neural networks. We need to use multiple samples to perform
-updates. 
+updates.
 
 The purpose of multiple workers here is not to make the algorithm
 faster, but to make it work by increasing the batch size.
@@ -200,7 +200,7 @@ Need to balance between learning speed, stability.
   - *Key insight*: existing approaches tend to explore conservatively
   - *Key result*: Optimistic exploration leads to efficient, stable
     learning in modern Actor Critic methods
-  
+
 
 * Resources
 - [[https://www.youtube.com/watch?v=EKqxumCuAAY&list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A&index=7&t=0s][CS285 Fa19 9/18/19 - YouTube]]

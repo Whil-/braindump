@@ -5,14 +5,14 @@
 
 - paper :: https://arxiv.org/pdf/1901.09948v2.pdf
 
-[[id:54691107-81a0-4d7b-8c51-d8a74bde7f86][Spiking Neural Networks]] enable power-efficient network models, which
+{[Spiking Neural Networks]} enable power-efficient network models, which
 have become of increasing importance in embedded and auto-motive
 applications. The power efficiency stems from dispensing of expensive
-floating-point computations. 
+floating-point computations.
 
 Surrogate gradient methods overcome the difficulties associated with
 the discontinuous non-linearity. Rather than changing the neuronal
-model ([[id:81796d94-28b9-441f-aee2-3194e4d59434][Smoothed Spiking Neural Networks]]), surrogate gradients are
+model ({[Smoothed Spiking Neural Networks]}), surrogate gradients are
 introduced to allow for numerical optimisation.
 
 Surrogate gradients can also improve the memory access overhead of the
@@ -29,4 +29,3 @@ firing threshold. This suggests that the details of the surrogate are
 not crucial in ensuring success of the method.
 
 bibliography:biblio.bib
-

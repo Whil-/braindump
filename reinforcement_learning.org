@@ -5,12 +5,12 @@
 #+hugo_tags: machine-learning
 bibliographystyle:unsrt
 
-- tags :: [[id:5a6f15fa-e5d4-474e-8ead-56b22d890512][Machine Learning]]
+- tags :: {[Machine Learning]}
 
 Reinforcement Learning is the field of learning and decision-making
 under uncertainty. An agent acts with a learnable behaviour policy in
 an environment with initially unknown dynamics and reward. The agent
-observes the environment's state (sometimes partially: [[id:390138b9-9910-473d-94b6-329fdd253a7f][POMDPs]]) and
+observes the environment's state (sometimes partially: {[Partially Observable Markov Decision Processes (POMDPs)]}) and
 chooses an action.
 
 - behaviour :: $\Pi(a | s)$
@@ -20,7 +20,7 @@ chooses an action.
 - dynamics :: $T(s_{t+1} | s_t, a_t)$
 - reward :: $R(r_{t+1} | s_t, a_t)$
 
-The dynamics and rewards here reflect the [[id:40554b45-c938-4753-a9b5-2cea41d761e3][markovian assumption]].
+The dynamics and rewards here reflect the {[Markovian Assumption]}.
 States can be represented in many ways: in a tabular fashion (state 1
 $\rightarrow$ state 2) or as features.
 
@@ -59,7 +59,7 @@ However, if the environment contains a terminal state, and the agent
 is guaranteed to reach a terminal state eventually, then this policy
 is called a *proper policy*, and the above issue goes away. Infinite
 sequences can be compared in terms of the average reward obtained per
-time step. 
+time step.
 
 ** Optimal policies and the utilities of states
 First, we can derive the expected utility of executing a policy $\pi$ in
@@ -251,7 +251,7 @@ Having obtained a utility function for the given  model, the agent can
 extract an optimal action by one-step look-ahead to maximise the
 expected utility.
 
-** Potential Pitfalls 
+** Potential Pitfalls
 A greedy agent, that picks the best action given the learned model,
 very seldom converges to the optimal policy for the environment and
 sometimes converges to horrible policies.
@@ -289,7 +289,7 @@ $f(u, n)$ is called the exploration function. It determines how greed
 is traded off against curiosity. The function should be increasing in
 $u$ and decreasing in $n$.
 
-** Learning an action-utility function 
+** Learning an action-utility function
 An active TD agent is no longer equipped with a fixed policy, so if it
 learns a utility function $U$, it will need to learn a model in order
 to be able choose an action based on $U$ via one-step look-ahead. The
@@ -307,13 +307,12 @@ training sequences tends to infinity.
 - [[https://slideslive.com/38921493/reinforcement-learning-past-present-and-future-perspectives][Katja Hofmann | Reinforcement Learning: Past, Present, and Future Perspective...]]
 
 * Related
-- [[id:c4816ea0-834b-4f78-ae53-cefd1b8e8a46][Markov Decision Process]]
-- [[id:4475a690-12be-4957-b98b-5b5d2ca3529e][Monte Carlo Tree Search]]
-- [[id:96858f4f-8174-44d1-ba24-91b9db21f35e][Deep Reinforcement Learning]]
-- [[id:6bcdf2f0-6f2b-47bf-95c1-180a1d81f497][Temporal Difference Learning]]
-- [[id:f90ef3b7-3d35-4af3-ba8f-00d27c6fa3c5][Policy Gradients]]
-- [[id:fc5a34fb-b009-4e9a-a779-d043e3e4e2db][Actor-Critic]]
-- [[id:ae0b04fd-500b-4592-a20b-556f26a1b69d][Q-Learning]]
+- {[Markov Decision Process]}
+- {[Monte Carlo Tree Search]}
+- {[Deep Reinforcement Learning]}
+- {[Temporal Difference Learning]}
+- {[Policy Gradients]}
+- {[Actor-Critic]}
+- {[Q-Learning]}
 
 bibliography:biblio.bib
-

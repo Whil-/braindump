@@ -3,7 +3,7 @@
 :END:
 #+title: Occupancy Grid Mapping
 
-In [[id:9c0ebb8f-6582-4daf-bb84-7aa299c2d204][Robot Localization]], it is assumed that the robot is given a map in
+In {[Robot Localization]}, it is assumed that the robot is given a map in
 advance. This is sometimes not the case.
 
 Acquiring maps with mobile robots is a challenging task, because:
@@ -144,7 +144,7 @@ Which is impossible to compute given the large space of all maps. It
 is often approximated via sampling. One simple way is to generate
 random triplets of pose, measurements and map occupancy values for any
 grid cell $m_i$. From which we can learn a simple network to predict
-occupancy values. 
+occupancy values.
 
 * Maintaining Dependencies in Grid Cells
 

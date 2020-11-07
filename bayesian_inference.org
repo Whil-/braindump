@@ -34,7 +34,7 @@ accurately quantify uncertainty.
 ** Classical Posterior Approximations
 
 - In conjugate models, one can express the posterior in simple form -
-  e.g. as a multivariate Gaussian (see [[id:febdd0a2-2cab-43b9-b69d-032bde0c2bf3][Exponential Family]])
+  e.g. as a multivariate Gaussian (see {[Exponential Family]})
 - In more complex settings, one can approximate the posterior using
   some tractable class of distributions
 - Large sample Gaussian approximations:
@@ -118,7 +118,7 @@ MCMC does not produce independent samples from the posterior
 distribution $\pi_n(\theta)$. These draws are auto-correlated, and as the
 level of correlation increases, the information provided by each
 sample decreases. "Slow mixing" Markov chains have highly
-autocorrelated draws. 
+autocorrelated draws.
 
 A well designed MCMC algorithm with a good proposal should ideally
 exhibit rapid convergence and mixing.
@@ -128,7 +128,7 @@ Embarrassingly Parallel MCMC e.g. cite:pmlr-v38-srivastava15,li16_simpl_scalab_a
 We can replace expensive transition kernels with approximations cite:johndrow15_optim_approx_markov_chain_bayes_infer. for
 example, we approximate a conditional distribution in Gibbs sampler
 with a Gaussian or using a subsample of data, vastly speeding up MCMC
-sampling in high-dimensional settings. 
+sampling in high-dimensional settings.
 
 ** Robustness in Big Data
 
@@ -152,5 +152,5 @@ coefficients? Most commonly used is a local-global scale mixture of
 Gaussians. cite:johndrow17_bayes_shrin_at_gwas_scale
 
 
-** 
+**
 bibliography:biblio.bib

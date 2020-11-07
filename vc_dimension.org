@@ -3,7 +3,7 @@
 :END:
 #+title: VC-Dimension
 
-- tags :: [[id:26dd708c-44ba-4f4f-89d6-e40839693fb9][Bias-Complexity Tradeoff]], [[id:b35169d4-1829-401d-a473-0827592b2b78][PAC Learning]]
+- tags :: {[The Bias-Complexity Tradeoff]}, {[PAC Learning]}
 
 cite:shalev2014understanding
 
@@ -99,7 +99,7 @@ Then the following are equivalent:
 5. Any ERM rule is a successful PAC learner for $\mathcal{H}$.
 6. $\mathcal{H}$ has a finite VC-dimension.
 
-* Sauer's Lemma and the Growth Function 
+* Sauer's Lemma and the Growth Function
 
 We have defined the notion of shattering, by considering the
 restriction of $\mathcal{H}$ to a finite set of instances. The growth

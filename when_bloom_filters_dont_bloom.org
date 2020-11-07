@@ -14,4 +14,4 @@ number loads, over optimizing the amount of memory used.
 
 [[file:../../../../../Dropbox/org/braindump/org/bloom_filter.org][Bloom Filters]] are great, as long as they fit into the L3 cache. They
 are optimized for memory usage, not memory access. A nice alternative
-is [[id:921860c2-ae0a-4160-ad99-13c12887095c][Cuckoo Filters]].
+is {[Cuckoo Filters]}.

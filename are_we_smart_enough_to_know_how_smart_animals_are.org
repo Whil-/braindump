@@ -3,10 +3,10 @@
 :END:
 #+title: Are We Smart Enough to Know How Smart Animals Are?
 
-- title :: Are We Smart Enough to Know How Smart Animals Are? 
+- title :: Are We Smart Enough to Know How Smart Animals Are?
 - author :: Frans de Waal
 - personal rating :: 4/5
-- tags :: [[id:d1125f42-4a2d-4287-b902-48a1df9a6761][Books]], [[id:cc7d1ffe-280d-4744-9fac-c38e70c5472c][Neuroscience ⭐]]
+- tags :: {[Books]}, {[Neuroscience ⭐]}
 
 Why is it that facial expression is universally consistent?
 
@@ -44,8 +44,7 @@ analogous to human names.
 
 Neuroscience may tell us where things happen in the brain, but does
 not help us formulate new theories or design insightful tests of
-cognition. 
+cognition.
 
 Instead of making humanity the measure of most things, we need to
 evaluate other species for what they are.
-

@@ -3,4 +3,4 @@
 :END:
 #+title: Unix
 
-- tags :: [[id:a5dfff84-6468-4b04-bb55-bbde427a686f][Linux]]
+- tags :: {[Linux]}

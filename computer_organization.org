@@ -3,7 +3,7 @@
 :END:
 #+title: Computer Organization
 
-- tags :: [[id:e5f08144-5c0d-4a74-a10a-34a37b89b49c][Operating Systems]]
+- tags :: {[Operating Systems]}
 
 * Pipelining
 - Increases throughput, but not latency
@@ -27,5 +27,4 @@
     branch address from the MEM stage (Control Hazard)
 
 Data flow does not affect current instruction, but only influence
-later instructions. 
-
+later instructions.

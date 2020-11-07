@@ -3,10 +3,9 @@
 :END:
 #+title: Likelihood Principle
 
-- tags :: [[id:5a6f15fa-e5d4-474e-8ead-56b22d890512][Machine Learning]]
+- tags :: {[Machine Learning]}
 
 Given a generative model for data $d$ given parameters
 $\mathrm{\theta}$, $P(d|\mathrm{\theta})$, and having observed a
 particular outcome $d_1$, all inferences and predictions should depend
 only on the function $P(d_1 | \mathrm{\theta})$.
-

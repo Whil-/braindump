@@ -3,9 +3,9 @@
 :END:
 #+title: Inverse Reinforcement Learning
 
-- tags :: [[id:be63d7a1-322e-40df-a184-90ad2b8aabb4][Reinforcement Learning ⭐]]
+- tags :: {[Reinforcement Learning]}
 
-Standard [[id:7ecd7d57-00d1-4a58-9061-105e1c324850][Imitation Learning]] copies actions performed by the expert,
+Standard {[Imitation Learning]} copies actions performed by the expert,
 and do not reason about the outcomes of the actions. However, humans
 copy the /intent/ of the actions, which result in vastly different
 actions.
@@ -82,8 +82,8 @@ soft optimal policy under current reward.
 
 * MaxEntropy Inverse RL cite:ziebart2008_maxentrl
 
-1. Given $\psi$, compute [[id:0f3564b7-5a64-4191-b917-4d94399d193f][backward message]] $\beta(s_t, a_t)$
-2. Given $\psi$, compute [[id:0f3564b7-5a64-4191-b917-4d94399d193f][forward message]] $\alpha(s_t)$
+1. Given $\psi$, compute {[Control As Inference]} $\beta(s_t, a_t)$
+2. Given $\psi$, compute {[Control As Inference]} $\alpha(s_t)$
 3. Compute $\mu_t(s_t, a_t) \propto \beta(s_t, a_t) \alpha(s_t)$
 4. Evaluate:
 
@@ -131,4 +131,3 @@ w.r.t $r_\psi$ brings us closer to the target distribution.
 - cite:ratliff2006maximum
 
 bibliography:biblio.bib
-

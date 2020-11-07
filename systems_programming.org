@@ -3,7 +3,7 @@
 :END:
 #+title: Systems Programming
 
-- tags :: [[id:e5f08144-5c0d-4a74-a10a-34a37b89b49c][Operating Systems]], [[id:a5dfff84-6468-4b04-bb55-bbde427a686f][Linux]]
+- tags :: {[Operating Systems]}, {[Linux]}
 
 * Memory
 TODO: https://people.freebsd.org/~lstewart/articles/cpumemory.pdf

@@ -3,7 +3,7 @@
 :END:
 #+title: Random Variables
 
-- tags :: [[id:3ec39abc-ea53-4087-8523-7ace154c6aa6][Statistics]]
+- tags :: {[Statistics]}
 
 * Introduction
 It frequently occurs that in performing an experiment, we are mainly
@@ -130,7 +130,7 @@ F(a) = 1 - e^{-\lambda }, a \ge 0
   \begin{cases}
     \frac{\lambda^\alpha}{\Gamma(\alpha)}x^{\alpha-1}e^{-\lambda
       x} & x \ge 0 \\
-    0 & x < 0 
+    0 & x < 0
   \end{cases}
 \end{equation}
 
@@ -213,7 +213,7 @@ $Cov(X,Y)$, is defined by:
 
 \begin{align}
   Cov(X,Y) &= E\left[ (X - E[X])(Y - E[Y]) \right] \\
-           &= E[XY] - E[X]E[Y]  
+           &= E[XY] - E[X]E[Y]
 \end{align}
 
 If $X$ and $Y$ are independent, then $Cov(X,Y) = 0$.
@@ -224,4 +224,3 @@ Some properties of covariance:
 2. $Cov(X,Y) = Cov(Y,X)$
 3. $Cov(cX, Y) = c Cov(X,Y)$
 4. $Cov(X, Y+Z) = Cov(X,Y) + Cov(X,Z)$
-

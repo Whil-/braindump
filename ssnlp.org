@@ -3,7 +3,7 @@
 :END:
 #+title: SSNLP Conference Notes
 
-- tags :: [[id:4a817202-7d27-43c8-90a7-8417d38c731b][Natural Language Processing]]
+- tags :: {[Natural Language Processing]}
 
 * AliNLP: the Text Processing Engine that Powers Alibaba's Business Applications
 
@@ -26,7 +26,7 @@ NLP Data:
  - News Category Corpus
  - Word Relation Graph
  - Knowledge Graph
- 
+
 NLP Foundations:
  - Lexical Analysis
  - Syntactical Analysis
@@ -53,7 +53,7 @@ Encode Layer (BiLSTM) -> Attention Layer -> Match Layer (Bilinear
 Match) -> Output Layer (Pointer Network)
 
 Used in AliMe, Timi, Lazada Chatbot
-* Ido Dagan: 
+* Ido Dagan:
 
 News Tweet Illustration: What is being said here?
 
@@ -68,7 +68,7 @@ Each QA pair represents one predicate-argument relation
 QA roles: Gunman takes own life after killing thrtee in Wisconsin spa
 shooting. Form QASemDep Graph.
 
-co-referring nodes/edges collapsed. 
+co-referring nodes/edges collapsed.
 * Noah Smith: Synchretizing Structured and Learned Representations
 
 - Broad-coverage semantic parsing: baselines
@@ -96,7 +96,7 @@ Open SESAME
 
 joint learning
 Use low-rank, sparse tensors
-Promoting sparsity : 
+Promoting sparsity :
 \begin{equation}
   \lambda \sum_{y_i, z_j \in C} \left|S\left( y_i, z_j \right) \right|
 \end{equation}

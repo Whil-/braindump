@@ -3,7 +3,7 @@
 :END:
 #+title: Transfer Learning
 
-- tags :: [[id:be63d7a1-322e-40df-a184-90ad2b8aabb4][Reinforcement Learning ⭐]]
+- tags :: {[Reinforcement Learning]}
 
 Prior understanding of problem structure can help us solve complex
 tasks quickly. Perhaps solving prior tasks would help acquire useful
@@ -74,7 +74,7 @@ This optimizes
 
 This is used where we can design the source domain (e.g. training in a
 simulator, which can be tweaked). Injecting randomness/diversity in
-the source tends to be helpful. 
+the source tends to be helpful.
 
 Resources:
 - [[https://lilianweng.github.io/lil-log/2019/05/05/domain-randomization.html][Domain Randomization for Sim2Real Transfer]]
@@ -91,7 +91,7 @@ cite:rusu15_polic_distil is able to:
 
 1. Compress policies learnt on single games into smaller models
 2. Build agents capable of playing multiple games
-3. Improve the stability of the [[id:ae0b04fd-500b-4592-a20b-556f26a1b69d][DQN learning algorithm]] by distilling
+3. Improve the stability of the {[Q-Learning]} by distilling
    online the policy of the best performing agent
 
 bibliography:biblio.bib

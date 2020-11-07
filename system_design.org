@@ -3,7 +3,7 @@
 :END:
 #+title: System Design
 
-- tags :: [[id:b7503ab8-1c6f-4b0f-bcee-019ac9ad723a][Software Engineering]], [[id:16f9812c-3186-48b3-9407-8e6aca57790a][Coding Interview Cheatsheet]]
+- tags :: {[Software Engineering]}, {[Coding Interview Cheatsheet]}
 
 * Basics
 1. SQL, noSQL
@@ -44,7 +44,7 @@ In the context of a database cluster, cluster continues to function
 even if there is a “partition” (communications break) between two
 nodes (both nodes are up, but can’t communicate).
 
-** Vertical scaling and Horizontal scaling 
+** Vertical scaling and Horizontal scaling
 In simple terms, to scale horizontally is adding more servers. To scale
 vertically is to increase the resources of the server ( RAM, CPU,
 storage, etc. ). Example: Lets say you own a restaurant which is now
@@ -95,7 +95,7 @@ Hashtable + Doubly-linked list
 Key -> Pointer to node in doubly linked list
 Each time it is accessed, move node to head of doubly-linked list
 Evicting keys:
-If adding new item, and it is full, remove tail of list, 
+If adding new item, and it is full, remove tail of list,
 * SAS/SSD
 1. used for I/O over SATA (7.5krpm)
 * Implementing TinyURL

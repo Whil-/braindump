@@ -4,7 +4,7 @@
 #+title: A Distributional Code for Value in Dopamine-based Reinforcement Learning
 
 - paper :: [[https://www.nature.com/articles/s41586-019-1924-6][https://www.nature.com/articles/s41586-019-1924-6]]
-- related :: [[id:be63d7a1-322e-40df-a184-90ad2b8aabb4][Reinforcement Learning ⭐]]
+- related :: {[Reinforcement Learning]}
 
 * Abstract
 Reward prediction errors are typically represented by a single scalar
@@ -18,4 +18,3 @@ over possible rewards.
 
 * Resources
 - [[https://mtomassoli.github.io/2017/12/08/distributional_rl/][Distributional RL – Simple Machine Learning]]
-

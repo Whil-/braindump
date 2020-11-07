@@ -3,11 +3,11 @@
 :END:
 #+title: PAC Learning
 
-- tags :: [[id:5a6f15fa-e5d4-474e-8ead-56b22d890512][Machine Learning]]
+- tags :: {[Machine Learning]}
 
 * ERM for finite hypothesis classes
 
-We note that [[id:ff243a09-9980-4738-b638-0521cc2bbf42][Empirical Risk Minimization]] can easily overfit
+We note that {[Empirical Risk Minimization]} can easily overfit
 to the training data. To correct for this, we introduce inductive
 bias, restricting the hypothesis space $\mathcal{H}$.
 
@@ -72,7 +72,7 @@ M = \left\{ S_x: \exists h \in \mathcal{H}_B, L_S(h) = 0 \right\}
 
 be the set of misleading samples. For every $S_x \in M$, there is a
 bad hypothesis, $h \in \mathcal{H}_B$ that looks like a good
-hypothesis in $S_x$. 
+hypothesis in $S_x$.
 
 Since the realizability assumption implies $L_S(h_S) = 0$, then the
 event $L_{(D,f)}(h_S) > \epsilon$ will only happen if our sample is
@@ -170,7 +170,7 @@ this assumption is too strong.
 
 The realizability assumption requires that there exists $h^* \in
 \mathcal{H}$ such that $\mathbb{P}_{x \sim D} [h^*(x) = f(x)] = 1$. We
-replace the 
+replace the
 
 ** Learning Problems beyond binary classification
 

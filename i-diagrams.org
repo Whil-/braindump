@@ -3,7 +3,7 @@
 :END:
 #+title: I-Diagrams
 
-- tags :: [[id:f4be59db-9bdb-4832-82e2-327c16b3ce15][Information Theory]]
+- tags :: {[Information Theory]}
 
 If we view random variables as sets, different information theory
 concepts can be represented using an information diagram.

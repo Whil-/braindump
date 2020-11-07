@@ -4,7 +4,7 @@
 #+title: Computer Vision
 
 * Prerequisites
-[[id:3319ef96-2df4-4c7e-98f4-3fc5978bd147][Linear Algebra]]
+{[Linear Algebra]}
 
 * Camera Basics
 
@@ -114,7 +114,7 @@ The line equation vector can be normalized so that $\mathbf{l} =
 (\hat{n}_x, \hat{n}_y, d) = (\hat{\mathbf{n}}, d)$
  with $\lvert
 \hat{\mathbf{n}} \rvert = 1$. When using homogeneous coordinates, we
-can compute the intersection of two lines as 
+can compute the intersection of two lines as
 
 \begin{equation}
   \tilde{\mathbf{x}} = \tilde{\mathbf{l}}_1 \times \tilde{\mathbf{l}}_2
@@ -447,7 +447,7 @@ http://ksimek.github.io/2013/08/13/intrinsic/
 
 \begin{align}
     P &= \overbrace{K}^\text{Intrinsic Matrix} \times \overbrace{[R \mid  \mathbf{t}]}^\text{Extrinsic Matrix} \\[0.5em]
-     &= 
+     &=
         \overbrace{
 
             \underbrace{
@@ -490,13 +490,13 @@ http://ksimek.github.io/2013/08/13/intrinsic/
 
         \overbrace{
         \underbrace{
-             \left( \begin{array}{c | c} 
+             \left( \begin{array}{c | c}
             I & \mathbf{t}
              \end{array}\right)
         }_\text{3D Translation}
         \times
         \underbrace{
-             \left( \begin{array}{c | c} 
+             \left( \begin{array}{c | c}
             R & 0 \\ \hline
             0 & 1
              \end{array}\right)
@@ -618,7 +618,7 @@ And we write:
 ^B_A T = \begin{bmatrix}
     ^B_AR & ^BO_A \\
     0^T & 1
-  \end{bmatrix} 
+  \end{bmatrix}
 \end{equation}
 
 
@@ -733,7 +733,7 @@ We can write:
 
 \begin{equation}
   p' = K \begin{bmatrix}
-    ^C_WR & ^C_Wt 
+    ^C_WR & ^C_Wt
   \end{bmatrix} ^Wp
 \end{equation}
 ** Photometric image formation
@@ -867,7 +867,7 @@ Convolution is the process of adding each element of the image to its
 local neighbors, weighted by the kernel.
 
 Convolutions can be used to denoise, descratch, blur, unblur and even
-feature extraction. 
+feature extraction.
 
 Median filtering is good for removing salt-and-pepper noise, or
 scratches in image

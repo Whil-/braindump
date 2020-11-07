@@ -3,7 +3,7 @@
 :END:
 #+title: GCC
 
-- tags :: [[id:b969b1f3-371c-42ae-a1f3-44836047659f][Compilers]], [[id:08aab063-2472-457a-8c11-6acd19ae29d2][The C Language]]
+- tags :: {[Compilers]}, {[The C Language]}
 
 * Building GCC
 Instead of downloading the tarball, we clone from the Git mirror,
@@ -133,7 +133,7 @@ are run over the RTL form, including:
 - peephole optimizations
 
 The files for backends are located in directories under ~gcc/config~,
-e.g. ~gcc/config/aarch64~. 
+e.g. ~gcc/config/aarch64~.
 
 The final pass converts RTL code into assembly code for output. The
 source files are final.c plus insn-output.c. Finally, code for the

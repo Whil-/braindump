@@ -5,7 +5,7 @@
 
 - title :: Work Clean
 - author :: Dan Charnas
-- tags :: [[id:563dcf37-472a-4203-b037-5a1635084ae9][Productivity]]
+- tags :: {[Productivity]}
 
 * Preparation
 1. Always turn up early, greet the day

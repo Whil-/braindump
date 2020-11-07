@@ -3,7 +3,7 @@
 :END:
 #+title: Topic Modeling
 
-- tags :: [[id:5a6f15fa-e5d4-474e-8ead-56b22d890512][Machine Learning]]
+- tags :: {[Machine Learning]}
 
 http://www.cs.columbia.edu/~blei/topicmodeling.html
 [[https://github.com/jethrokuan/lda-survey][LDA survey - Github]]
@@ -33,7 +33,7 @@ Where $\theta = (\theta_1, \theta_2, \dots, \theta_n), \alpha = (\alpha_1, \alph
   S = \left\{x \in \mathbb{R}^n : x_i \ge 0, \sum_{i=1}^{n} x_i = 1 \right\}
 \end{equation}
 
-and 
+and
 $\frac{1}{\beta(\alpha)} =
 \frac{\Gamma(\alpha_0)}{\Gamma(\alpha_1)\Gamma(\alpha_2)\dots\Gamma(\alpha_n)}$
 
@@ -98,7 +98,7 @@ http://setosa.io/ev/markov-chains/
     - solution: DTM: use logistic normal distribution to model topics
       evolving over time
 * TopicRNN
-http://www.columbia.edu/~jwp2128/Papers/DiengWangetal2017.pdf 
+http://www.columbia.edu/~jwp2128/Papers/DiengWangetal2017.pdf
 
 In TopicRNN, latent topic models are used to capture global semantic
 dependencies so that the RNN can focus its modeling capacity on the

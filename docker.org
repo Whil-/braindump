@@ -7,7 +7,7 @@
 #+author: Jethro Kuan
 #+email: jethrokuan95@gmail.com
 
-- tags :: [[id:a5dfff84-6468-4b04-bb55-bbde427a686f][Linux]], [[id:e5f08144-5c0d-4a74-a10a-34a37b89b49c][Operating Systems]]
+- tags :: {[Linux]}, {[Operating Systems]}
 
 * Why Containers
   :PROPERTIES:
@@ -129,7 +129,7 @@ List all docker containers (including stopped containers):
 
   ADD app.js /var/www/app.js
 
-  CMD ["/usr/bin/node", "/var/www/app.js"] 
+  CMD ["/usr/bin/node", "/var/www/app.js"]
 #+end_src
 ** Dockerfile Cheatsheet
    :PROPERTIES:
@@ -163,7 +163,7 @@ Docker creates three networks by default. We're mostly concerned with
   9f904ee27bf5        none                null
   cf03ee007fb4        host                host
 #+end_src
-** How =bridge= works 
+** How =bridge= works
 Unless specified otherwise, the docker container will connect to this
 default =bridge= network. This provides a means of Docker containers
 to access the outside world. This is achieved through rules on the

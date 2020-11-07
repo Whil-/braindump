@@ -3,7 +3,7 @@
 :END:
 #+title: OCaml
 
-- tags :: [[id:02f0d648-baae-478f-b738-448cf53e2a63][Programming Languages]]
+- tags :: {[Programming Languages]}
 
 * Pattern Matching
 Patterns cannot be used to expressed arbitrary conditions. this is a
@@ -34,7 +34,7 @@ Some common ppx's:
 - [[https://github.com/janestreet/ppx_let][janestreet/ppx_let]]
 - [[https://github.com/janestreet/ppx_expect][janestreet/ppx_expect]]
 - [[https://github.com/janestreet/ppx_sexp_conv][janestreet/ppx_sexp_conv]]
-* Writing JS with Ocaml 
+* Writing JS with Ocaml
 Currently there are 2 options:
 
 - [[https://github.com/ocsigen/js_of_ocaml][js_of_ocaml]]
@@ -55,4 +55,3 @@ We’ve made extensive use of js_of_ocaml for internal apps at Jane Street. I ca
 #+end_quote
 * References
 1. [[https://realworldocaml.org/][Real World OCaml]]
-

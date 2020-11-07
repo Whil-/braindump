@@ -35,7 +35,7 @@ maximum sensor range. Hence, the measurement probability is given by:
 
 The environment of mobile robots are dynamics, whereas the map of the
 environment is static. Examples of moving objects include humans in
-the environment. 
+the environment.
 
 One method of handling these is to include them in the state vector
 and estimate their position. The simpler way is to treat them as
@@ -81,4 +81,4 @@ Parameters can be learnt from data via maximum likelihood estimation.
 2. Computationally expensive
 
 ** Alternatives
-- [[id:bc31b36d-8a2e-492c-af48-75f7794eefa4][Likelihood Field Model]]
+- {[Likelihood Field Model]}

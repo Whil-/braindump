@@ -3,7 +3,7 @@
 :END:
 #+title: Variational Inference
 
-- tags :: [[id:fb39fedd-bece-4d0c-998d-e57d7a712408][Machine Learning Algorithms]]
+- tags :: {[Machine Learning Algorithms]}
 
 * TODO Variational Bounds of Mutual Information cite:poole19_variat_bound_mutual_infor
 
@@ -13,6 +13,5 @@
 
 * TODO A Contrastive Divergence for Combining Variational Inference and MCMC cite:ruiz19_contr_diver_combin_variat_infer_mcmc
 
-* 
+*
 bibliography:biblio.bib
-

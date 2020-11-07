@@ -3,7 +3,7 @@
 :END:
 #+title: Computer Networking
 
-- tags :: [[id:e5f08144-5c0d-4a74-a10a-34a37b89b49c][Operating Systems]]
+- tags :: {[Operating Systems]}
 
 * Introduction
 ** What is the Internet?
@@ -19,7 +19,7 @@ receiving end system is known as the route, or path through a network.
 
 End systems access the internet through /Internet Service Providers
 (ISPs)/. ISPs provide a variety of types of network access to the end
-systems. 
+systems.
 
 End systems, packet switches and other pieces of the Internet run
 protocols that control the sending and receiving of information within
@@ -41,7 +41,7 @@ The computers and other devices that are connected to the Internet are
 often called end systems. This is because they sit at the edge of the
 Internet. Each system are also referred to as hosts because they host
 application programs such as the web browser, or a server. Hosts are
-sometimes further divided into 2 categories: /clients/ and /servers/. 
+sometimes further divided into 2 categories: /clients/ and /servers/.
 
 Access networks include the digital subscriber line (DSL), cable, and
 fiber to the home (FTTH). Ethernet and WiFi access networks are now
@@ -53,7 +53,7 @@ station.
 ** Physical Mediums
 For reach transmitter-receiver pair, bits are interchanged. These bits
 are sent by electromagnetic waves, or optical pulses across a physical
-medium. 
+medium.
 
 The least expensive and most commonly used transmission medium is the
 twisted-pair copper wire. It consists of 2 insulated copper wires,
@@ -92,7 +92,7 @@ transmit the packet is $\frac{L}{R}$ seconds.
 Most packet switches use /store-and-forward transmission/ at the inputs
 to the links. This means that the packet switch must receive the
 entire packet before it can begin to transmit the first bit of the
-packet onto the outbound link. 
+packet onto the outbound link.
 
 Each packet switch has multiple links attached to it. For each
 attached link, the packet switch has an /output buffer/, which stores
@@ -107,7 +107,7 @@ How does a router determine which link it should forward the packet
 onto? In the Internet, each end system is assigned an IP address. The
 source end system includes the destination IP address in the packet's
 header. Each router has a /forwarding table/ that maps destination
-addresses to its outbound links. 
+addresses to its outbound links.
 
 *** Circuit Switching
 
@@ -167,7 +167,7 @@ This does not account for the average queuing delay of the node.
 
 ** Throughput
 The instantaneous throughput at any instant of time is the rate (in
-bits/sec) at which a host is receiving the file. 
+bits/sec) at which a host is receiving the file.
 
 ** Protocol Layers and Their Service Models
 
@@ -267,7 +267,7 @@ information with each other before the application-level messages
 begin to flow. This hand-shaking procedure alerts the client and
 server, and a TCP connection is said to exist between the sockets of
 the 2 processes. When the application is done with sending messages,
-it must tear down the connection. 
+it must tear down the connection.
 
 The communicating processes can rely on TCP to deliver all data sent
 without error, and in proper order. TCP also includes a
@@ -293,7 +293,7 @@ out-of-order.
 
 On the other hand, UDP does not include a congestion-control
 mechanism, so a sending process can pump data into a UDP socket at any
-rate. 
+rate.
 
 This protocol is largely used by real-time applications.
 
@@ -376,12 +376,12 @@ Cookie consists of 4 components:
 [[file:images/networking/screenshot_2019-01-25_11-29-28.png]]
 
 
-** Web Caching 
+** Web Caching
 
 A web cache -- also called a proxy server -- may satisfy HTTP requests
 on behalf of an origin Web server.
 
-** DNS 
+** DNS
 People prefer the more mnemonic hostname identifier (e.g.
 ~www.google.com~), whil emrouters prefer fixed-length, hierarchically
 structured IP addresses.
@@ -416,7 +416,7 @@ hierarchical fashion and distributed around the world.
      it always has a DNS record that translates the host's hostname to
      that host's IP address. When an authoritative name server is
      queried by a root server, the authoritative name server responds
-     with a reply containing the desired mapping. 
+     with a reply containing the desired mapping.
 
 bibliography:biblio.bib
 
@@ -512,7 +512,7 @@ segments and passing to the network layer, is called /multiplexing/.
 
 This is performed by TCP and UDP by including two special fields in
 the segment headers: the *source port-number field* and the *destination
-port-number field*. 
+port-number field*.
 
 The port numbers ranging from 0 to 1023 are called *well-known port
 numbers*, and are restricted, which means that they are reserved for
@@ -577,7 +577,7 @@ the destination host to pass the application data to the correct
 process running on the destination end system. The length field
 specifies the number of bytes in the UDP segment (header plus data).
 An explicit length value is needed since the size of the data field
-may differ between UDP segments. 
+may differ between UDP segments.
 
 The checksum provides for error detection. It determines whether bits
 within the UDP segment have been altered as it moved from source to
@@ -605,7 +605,7 @@ The sum of the first two words is:
 
 Adding the third word gives:
 
-#+begin_src 
+#+begin_src
 1011101110110101
 1000111100001100
 ----------------
@@ -771,7 +771,7 @@ choose the link interface to forward the packet.
 #+caption: Illustration of the Internet's network layer
 [[file:images/networking/screenshot_2019-03-20_09-50-50.png]]
 
-** Datagram 
+** Datagram
 
 The network-layer packet is referred to as a /datagram/. The format of a
 datagram is as follows:
@@ -821,7 +821,7 @@ a hard limit on the length of an IP datagram.
 To resolve this issue, an IP datagram needs to be able to split itself
 into two or more smaller IP datagrams. These smaller datagrams are
 called fragments. Fragments need to be reassembled before reaching the
-transport layer at the destination. 
+transport layer at the destination.
 
 To perform the reassembly task, IPv4 put identification, flag and
 fragmentation offset fields in the datgram header.

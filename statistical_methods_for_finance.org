@@ -3,7 +3,7 @@
 :END:
 #+title: Statistical Methods for Finance
 
-- tags :: [[id:51187adb-36a9-448e-bee4-ed0975a46e0e][Finance]]
+- tags :: {[Finance]}
 
 * Returns
 
@@ -78,5 +78,3 @@ In the lognormal geometric random walk model we assume that:
 
 1. log returns are normally distributed
 2. log returns are mutually independent
-
-

@@ -3,7 +3,7 @@
 :END:
 #+title: Smoothed Spiking Neural Networks
 
-Smoothed [[id:54691107-81a0-4d7b-8c51-d8a74bde7f86][Spiking Neural Networks]] ensure well-behaved gradients which are
+Smoothed {[Spiking Neural Networks]} ensure well-behaved gradients which are
 directly suitable for optimization. They come in 4 categories:
 
 1. Soft non-linearity models
@@ -18,7 +18,7 @@ include a smooth spike generating process. These include:
 
 - Hodgkin-Huxley
 - Morris-Lecar
-- FitzHugh-Nagumo 
+- FitzHugh-Nagumo
 
 The resultant network can be optimized using standard methods of BPTT.
 These smoothed models compromise on a key feature of SNNs: binary

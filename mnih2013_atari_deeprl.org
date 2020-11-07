@@ -15,7 +15,7 @@
 
 ** DQN
 
-1. Use of [[id:819e7988-cd1b-42c3-a714-d761aeea0134][Experience Replay]] buffer
+1. Use of {[Experience Replay]} buffer
 2. Separate target network stabilizes optimization targets:
 
 \begin{equation}
@@ -32,7 +32,7 @@ rapidly.
 * Improving DQN
 - Double Q-learning reduces bias cite:van2016deep
 - Average Q-learning reduces variance cite:anschel2017averaged
-- [[id:33b0e88f-317f-4fa1-b239-63ebbc04fa58][Hindsight Experience Replay]] cite:andrychowicz2017hindsight
+- {[Hindsight Experience Replay]} cite:andrychowicz2017hindsight
 - Distributional RL cite:dabney2018distributional
 
 * References

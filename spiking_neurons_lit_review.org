@@ -3,7 +3,7 @@
 :END:
 #+title: Spiking Neurons (Literature Review)
 
-- tags :: [[id:e013e4ea-4fd4-4a39-b159-76d1849190f9][Spiking Neurons (Literature Review)]]
+- tags :: {[Spiking Neurons (Literature Review)]}
 
 * Introduction to Spiking Neural Networks label:sec:snn
 
@@ -99,7 +99,7 @@ where $\delta(x)$ is the Dirac-delta function with $\delta(x) = 0$
 for $x \ne 0$ and $\int_{-\infty}^{\infty} \delta(x)dx = 1$. Spikes
 are thus reduced to points in time.
 
- 
+
 - dendrites :: input device
 - soma :: central processing unit (non-linear processing step). If the
           total input exceeds a certain threshold, an output signal is generated
@@ -161,12 +161,12 @@ for $x \ne 0$ and $\int_{-\infty}^{\infty} \delta(x)dx = 1$. Spikes
 are thus reduced to points in time.
 
 SRM only takes into account the most recent spike, and cannot capture
-adaptation. 
+adaptation.
 
 ** Neuronal Coding
 
 How do spike trains encode information? At present, a definite answer
-to this question is not known. 
+to this question is not known.
 
 *** Temporal Coding
 Traditionally, it had been thought that information was contained in
@@ -385,7 +385,7 @@ cite:sboev18_spikin_neural_networ_reinf_learn:
                     \\ {\lambda \cdot \exp
                     \left(-\frac{t_{\mathrm{post}}-t_{\mathrm{pre}}}{\tau_{+}}\right),
                     \text {if }
-                    t_{\mathrm{pre}}-t_{\mathrm{post}}<0}\end{array}\right.              
+                    t_{\mathrm{pre}}-t_{\mathrm{post}}<0}\end{array}\right.
 \end{equation}
 
 where $\tau_{+}$ and $\tau_{-}$ are time constants. $\tau_{+} = 16.8ms$
@@ -403,7 +403,7 @@ trained using the STDP learning rule have yet to achieve comparable
 performance compared to ANNs on relatively simple datasets like MNIST
 cite:TAVANAEI201947.
 
-*** Gradient-based methods 
+*** Gradient-based methods
 
 Performance is important for practical applications, and
 gradient-based training methods such as backpropagation has shown
@@ -662,7 +662,7 @@ cite:sboev18_spikin_neural_networ_reinf_learn:
                     \\ {\lambda \cdot \exp
                     \left(-\frac{t_{\mathrm{post}}-t_{\mathrm{pre}}}{\tau_{+}}\right),
                     \text {if }
-                    t_{\mathrm{pre}}-t_{\mathrm{post}}<0}\end{array}\right.              
+                    t_{\mathrm{pre}}-t_{\mathrm{post}}<0}\end{array}\right.
 \end{equation}
 
 where $\tau_{+}$ and $\tau_{-}$ are time constants. $\tau_{+} = 16.8ms$
@@ -680,7 +680,7 @@ trained using the STDP learning rule have yet to achieve comparable
 performance compared to ANNs on relatively simple datasets like MNIST
 cite:TAVANAEI201947.
 
-*** Gradient-based methods 
+*** Gradient-based methods
 
 Performance is important for practical applications, and
 gradient-based training methods such as backpropagation has shown
@@ -795,7 +795,7 @@ potential:
   \tau \dot{s} = -s + \sum_{k} \delta (t - t_k)
 \end{equation}
 
-with 
+with
 
 \begin{equation}
 \tau \dot{s} = -s + g \dot{v}
@@ -812,7 +812,7 @@ reward-modulated spike-time dependent plasticity.
 
 * TODO Theories of Error Back-Propagation in the Brain cite:whittington19_theor_error_back_propag_brain
 
-* [[id:62a93e72-8b06-46dd-863c-e2eae004a071][Temp Coding with Alpha Synaptic Function]]
+* {[Temp Coding with Alpha Synaptic Function]}
 * STDP
 
 STDP is a biologically inspired long-term plasticity model, in which
@@ -827,7 +827,7 @@ presynaptic spikes and $t_{post}$ of postsynaptic spikes:
                     \\ {\lambda \cdot \exp
                     \left(-\frac{t_{\mathrm{post}}-t_{\mathrm{pre}}}{\tau_{+}}\right),
                     \text {if }
-                    t_{\mathrm{pre}}-t_{\mathrm{post}}<0}\end{array}\right.              
+                    t_{\mathrm{pre}}-t_{\mathrm{post}}<0}\end{array}\right.
 \end{equation}
 
 This additive STDP rule requires also an additional constraint that

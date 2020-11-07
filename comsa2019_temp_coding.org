@@ -3,7 +3,7 @@
 :END:
 #+title: Temp Coding with Alpha Synaptic Function
 
-- tags :: [[id:54691107-81a0-4d7b-8c51-d8a74bde7f86][Spiking Neural Networks]]
+- tags :: {[Spiking Neural Networks]}
 
 * Temporal Coding with Alpha Synaptic Function cite:comsa19_tempor_codin_spikin_neural_networ
 
@@ -31,7 +31,7 @@
 3. *Synchronization pulses:* input-independent spikes, used to
    facilitate transformations of the class boundaries.
 
-** The Coding Scheme 
+** The Coding Scheme
 
 More salient information about a feature is encode as an earlier
 spike in the corresponding input neuron (think time-to-first-spike).

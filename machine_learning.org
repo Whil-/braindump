@@ -5,7 +5,7 @@
 #+hugo_tags: machine-learning
 
 * Table of Contents
-- [[id:4a817202-7d27-43c8-90a7-8417d38c731b][Natural Language Processing]]
+- {[Natural Language Processing]}
 
 * When do we need machine learning?
 Two aspects of a given problem may call for the use of programs that
@@ -23,7 +23,7 @@ learn and improve on the basis of their "experience":
 ** What is Learning?
  An agent is said to be /learning/ if it improves its performance P on
  task T based on experience/observations/data E. T must be fixed, P
- must be measurable, E must exist. See [[id:13ee9429-7d8b-40c1-a3bc-e9db7326f580][Learning agents]].
+ must be measurable, E must exist. See {[Artificial Intelligence » Learning agents]}.
 *** Inductive Bias
  The incorporation of prior knowledge biases the learning mechanism.
  This is also called /inductive bias/. The incorporation of prior
@@ -74,7 +74,7 @@ summary, or compressed version of that data.
   \end{equation*}
 
   We are interested in finding a hypothesis $h$ that has a small risk,
-  or expected loss, typically using [[id:ff243a09-9980-4738-b638-0521cc2bbf42][Empirical Risk Minimization]].
+  or expected loss, typically using {[Empirical Risk Minimization]}.
 
 **** Assumptions Made ⚠
  1. One common assumption is that the data in the data generation
@@ -192,7 +192,7 @@ generalize it to satisfy its input instance.
 \begin{equation*}
   VS_{H,D} = {h \in H | h \text{ is consistent with }D}
 \end{equation*}
- 
+
 - If $c \in H$, then D can reduce $VS_{H,D}$ to ${c}$.
 - If D is insufficient, then $VS_{H,D}$ represents the /uncertainty/
   of what the target concept is
@@ -390,7 +390,7 @@ $\mu \in R^n$ and a covariance matrix $\Sigma \in R^{n \times n}$, where $\Sigma
 
 *** TODO Gaussian Discriminant Analysis
 In Gaussian Discriminant Analysis, p(x | y) is distributed to a
-[[id:9aa01f4a-0432-42d6-855a-cf17721449a1][Multivariate Normal Distribution]].
+{[Machine Learning » Multivariate Normal Distribution]}.
 
 \begin{align}
   y &\sim Bernoulli(\phi) \\
@@ -481,7 +481,7 @@ Meta supervised learning: {x, y} to {x, t, y}
 3. Generate answer one at a time by
    1. Pointing to context
    2. Pointing to question
-   3. Choosing a word 
+   3. Choosing a word
 
 ** Learnings
 - Transformer Layers yield benefits in single-task and multitask
@@ -501,7 +501,7 @@ Meta supervised learning: {x, y} to {x, t, y}
 
 * Structuring Data Science Projects
 Cookiecutter Data Science provides a decent project structure, and
-uses the ubiquitous build tool ~Make~ to build data projects. cite:home_cookiec_data_scien 
+uses the ubiquitous build tool ~Make~ to build data projects. cite:home_cookiec_data_scien
 
 #+begin_src text
 ├── LICENSE

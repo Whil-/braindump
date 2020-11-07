@@ -3,7 +3,7 @@
 :END:
 #+title: VFS for Git
 
-VFS for [[id:a731b432-3ed7-428a-b3bb-78d3eefc217e][Git]] is a virtualized filesystem used to bypass assumptions
+VFS for {[Git]} is a virtualized filesystem used to bypass assumptions
 about repository size, allowing Git repositories to scale up to large
 repositories.
 
@@ -13,4 +13,3 @@ view of the working directory, and examining the commit history with
 git log.
 
 GVFS allows dynamically downloading objects as needed.
-
