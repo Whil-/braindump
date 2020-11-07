@@ -12,3 +12,9 @@ cite:you17_large_batch_train_convol_networ. One of the secondary goals is
 - [[https://github.com/noahgolmant/pytorch-lars][pytorch-lars]]
 
 bibliography:biblio.bib
+* 1 Linked References to "LARS Optimizer"
+
+** {{chen20_simpl_framew_contr_learn_visual_repres.org}{chen20_simpl_framew_contr_learn_visual_repres: A simple framework for contrastive learning of visual representations}}
+
+*** We do not train the model with a memory bank
+Rather than train with a memory bank, they use a large batch size, and the {{chen20_simpl_framew_contr_learn_visual_repres.org::24}{LARS Optimizer}} to stabilize training.

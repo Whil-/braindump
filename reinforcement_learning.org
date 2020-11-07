@@ -316,3 +316,86 @@ training sequences tends to infinity.
 - {[Q-Learning]}
 
 bibliography:biblio.bib
+* 18 Linked References to "Reinforcement Learning"
+
+** {{transfer_learning.org}{Transfer Learning}}
+
+- tags :: {{transfer_learning.org::7}{Reinforcement Learning}}
+
+** {{self_supervised_learning.org}{Self-supervised Learning}}
+
+*** Self-supervised Learning vs Other Learning Paradigms
+In {{self_supervised_learning.org::16}{Reinforcement Learning}}, the machine predicts a scalar reward given weak feedback once in a while. Since there is very little feedback, it seems impossible to learn any complex representations in a short amount of time.
+
+** {{q_learning.org}{Q-Learning}}
+
+- tags :: {{q_learning.org::7}{Machine Learning Algorithms}}, {{q_learning.org::7}{Temporal Difference Learning}}, {{q_learning.org::7}{Reinforcement Learning}}
+
+** {{policy_gradients.org}{Policy Gradients}}
+
+- tags :: {{policy_gradients.org::7}{Machine Learning Algorithms}}, {{policy_gradients.org::7}{Reinforcement Learning}}
+
+** {{neuroscience_rl.org}{Neuroscience and Reinforcement Learning}}
+
+- tags :: {{neuroscience_rl.org::7}{Reinforcement Learning}}, {{neuroscience_rl.org::7}{Neuroscience â­}}
+
+{{neuroscience_rl.org::9}{Reinforcement Learning}} is similar to how humans learn:
+
+** {{model_based_rl.org}{Model-Based Reinforcement Learning}}
+
+In model-free {{model_based_rl.org::7}{Reinforcement Learning}}, we assumed that $p(s_{t+1} |
+s_t, a_t)$ is unknown, and no attempt is made to learn it. However, we
+often know the dynamics. For example, in games such as chess, and
+easily modeled systems, like car navigation.
+
+** {{meta_learning.org}{Meta Learning}}
+
+- tags :: {{meta_learning.org::7}{Reinforcement Learning}}
+
+** {{inverse_rl.org}{Inverse Reinforcement Learning}}
+
+- tags :: {{inverse_rl.org::7}{Reinforcement Learning}}
+
+** {{human_behaviour_as_optimal_control.org}{Human Behaviour As Optimal Control}}
+
+Does {{human_behaviour_as_optimal_control.org::7}{Reinforcement Learning}} and {{human_behaviour_as_optimal_control.org::7}{Optimal Control and Planning}} provide a
+reasonable model of human behaviour? Is there a better explanation?
+
+** {{generalization_in_rl.org}{Generalization In Reinforcement Learning}}
+
+- tags :: {{generalization_in_rl.org::7}{Reinforcement Learning}}
+
+** {{free_energy_rl.org}{Free-Energy Reinforcement Learning}}
+
+- tags :: {{free_energy_rl.org::7}{Reinforcement Learning}}
+
+** {{exploration_in_rl.org}{Exploration In Reinforcement Learning}}
+
+In {{exploration_in_rl.org::7}{Reinforcement Learning}}, exploration is important where rewards
+are sparse, and not a direct indication of how good an action is. Some
+environments where good exploration is necessary is Montezuma's
+revenge, where finishing a game only weakly correlates with rewarding
+events.
+
+** {{distributed_rl.org}{Distributed Reinforcement Learning}}
+
+Parallelizing {{distributed_rl.org::7}{Reinforcement Learning}}.
+
+** {{deep_rl.org}{Deep Reinforcement Learning}}
+
+- tags :: {{deep_rl.org::9}{Reinforcement Learning}}
+
+** {{dabney2020_distributional_rl.org}{A Distributional Code for Value in Dopamine-based Reinforcement Learning}}
+
+- related :: {{dabney2020_distributional_rl.org::8}{Reinforcement Learning}}
+
+** {{control_as_inference.org}{Control As Inference}}
+
+- tags :: {{control_as_inference.org::7}{Optimal Control and Planning}}, {{control_as_inference.org::7}{Reinforcement Learning}}
+
+** {{byron_boots_perspectives_on_machine_learning_and_robotics.org}{Byron Boots - Perspectives on Machine Learning and Robotics}}
+
+*** How should robots learn?
+{{byron_boots_perspectives_on_machine_learning_and_robotics.org::40}{Reinforcement Learning}} can learn complex policies, and is often state-of-the-art
+in simulated environments and games. However, the algorithms are data-hungry,
+and the objective function is non-convex and difficult to optimize.

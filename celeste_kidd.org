@@ -2,3 +2,8 @@
 :ID:       ff987b9e-8229-44fc-9fb5-81243e1fb745
 :END:
 #+title: Celeste Kidd
+* 1 Linked References to "Celeste Kidd"
+
+** {{how_to_know_kidd.org}{How To Know - Celeste Kidd}}
+
+- speaker :: {{how_to_know_kidd.org::9}{Celeste Kidd}}

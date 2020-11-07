@@ -4,3 +4,11 @@
 #+title: Neural Network Optimizer
 
 - tags :: {[Machine Learning Algorithms]}
+* 1 Linked References to "Neural Network Optimizer"
+
+** {{lars_optimizer.org}{LARS Optimizer}}
+
+Layer-wise Adaptive Rate Scaling (LARS) is a {{lars_optimizer.org::7}{Neural Network Optimizer}}. The
+technique allows {{lars_optimizer.org::7}{Large Batch Training}} without significant decrease in accuracy
+cite:you17_large_batch_train_convol_networ. One of the secondary goals is
+{{lars_optimizer.org::7}{Fast Neural Network Training}}.

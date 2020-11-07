@@ -13,3 +13,13 @@ view of the working directory, and examining the commit history with
 git log.
 
 GVFS allows dynamically downloading objects as needed.
+* 2 Linked References to "VFS for Git"
+
+** {{git_scalar.org}{Git Scalar}}
+
+Git has trouble handling large repositories. This problem is resolved
+using {{git_scalar.org::10}{VFS for Git}}. This is essentially a wrapper around GVFS,
+replacing the =git= command.
+
+*** 2. Reducing Object Transfer
+The {{git_scalar.org::29}{VFS for Git}} protocol reduces object transfer.

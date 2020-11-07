@@ -2,3 +2,18 @@
 :ID:       b85483b8-9e57-4b6d-babf-5013f99119a0
 :END:
 #+title: Fast Neural Network Training
+* 2 Linked References to "Fast Neural Network Training"
+
+** {{lars_optimizer.org}{LARS Optimizer}}
+
+Layer-wise Adaptive Rate Scaling (LARS) is a {{lars_optimizer.org::10}{Neural Network Optimizer}}. The
+technique allows {{lars_optimizer.org::10}{Large Batch Training}} without significant decrease in accuracy
+cite:you17_large_batch_train_convol_networ. One of the secondary goals is
+{{lars_optimizer.org::10}{Fast Neural Network Training}}.
+
+** {{gpipe.org}{Gpipe}}
+
+Gpipe is a scalable pipeline parallelism library published by Google
+Brain, which allows for efficient training of large, memory-consuming
+models cite:huang18_gpipe. Pipeline parallelism allows for
+{{gpipe.org::10}{Fast Neural Network Training}}.

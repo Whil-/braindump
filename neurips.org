@@ -2,3 +2,12 @@
 :ID:       162e6047-b066-4a3b-a618-ddcab2c738f7
 :END:
 #+title: NeurIPS
+* 2 Linked References to "NeurIPS"
+
+** {{how_to_know_kidd.org}{How To Know - Celeste Kidd}}
+
+- tags :: {{how_to_know_kidd.org::7}{Machine Learning}}, {{how_to_know_kidd.org::7}{NeurIPS}}
+
+** {{emti_dl_with_bayesian_principles.org}{Deep Learning With Bayesian Principles - Emtiyaz Khan}}
+
+- tags :: {{emti_dl_with_bayesian_principles.org::9}{Bayesian Deep Learning}}, {{emti_dl_with_bayesian_principles.org::9}{NeurIPS}}

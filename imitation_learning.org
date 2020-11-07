@@ -83,3 +83,18 @@ Assuming: $\pi_{\theta}\left(\mathbf{a} \neq \pi^{\star}(\mathbf{s}) | \mathbf{s
 [[file:images/imitation_learning/screenshot2019-12-15_14-50-49_.png]]
 
 bibliography:biblio.bib
+* 2 Linked References to "Imitation Learning"
+
+** {{inverse_rl.org}{Inverse Reinforcement Learning}}
+
+Standard {{inverse_rl.org::9}{Imitation Learning}} copies actions performed by the expert,
+and do not reason about the outcomes of the actions. However, humans
+copy the /intent/ of the actions, which result in vastly different
+actions.
+
+** {{byron_boots_perspectives_on_machine_learning_and_robotics.org}{Byron Boots - Perspectives on Machine Learning and Robotics}}
+
+*** How should robots learn?
+{{byron_boots_perspectives_on_machine_learning_and_robotics.org::44}{Imitation Learning}} provides a general way to accelerate policy learning, by
+leveraging models/simulators and experts. We can leverage surrogate objective
+functions that are easier to optimize.
