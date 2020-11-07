@@ -154,3 +154,29 @@ Gaussians. cite:johndrow17_bayes_shrin_at_gwas_scale
 
 **
 bibliography:biblio.bib
+* 4 Linked References to "Bayesian Inference"
+
+** {{noninformative_priors.org}{Non-informative Priors}}
+
+Non-informative priors are used in {{noninformative_priors.org::8}{Bayesian Inference}}, in the
+situation where no prior information exists, or inference based
+dominantly on the data is desired. We wish to find a distribution
+$p(\theta)$ that contained "no information" about $\theta$ (favours no
+value of $\theta$ over another).
+
+** {{jeffreys_prior.org}{Jeffreys Prior}}
+
+The Jeffrey's prior is an easy-to-compute reference prior that is
+invariant to transformation, used in {{jeffreys_prior.org::9}{Bayesian Inference}}. If the model
+only has a univariate parameter $\theta$, the prior is given by:
+
+** {{interval_estimation_bayesian.org}{Interval Estimation in Bayesian Statistics}}
+
+Suppose instead of {{interval_estimation_bayesian.org::9}{Point Estimation in Bayesian Statistics}}, we'd like to identify a
+region that is likely to contain the true value of parameter $\theta$.
+In {{interval_estimation_bayesian.org::9}{Bayesian Inference}}, this region is called the /credible set/, or
+the /Bayesian confidence interval/.
+
+** {{arguments_against_bayesian_inference.org}{Arguments Against Bayesian Inference}}
+
+- tags :: {{arguments_against_bayesian_inference.org::7}{Bayesian Inference}}

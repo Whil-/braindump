@@ -13,3 +13,24 @@ L_S(h) = \frac{|\{i \in [m] : h(x_i) \ne y_i\}}{m}
 
 Given a hypothesis class $H$, finding the hypothesis $h \in H$ that
 minimizes the empirical risk is a simple learning strategy.
+* 3 Linked References to "Empirical Risk Minimization"
+
+** {{pac_learning.org}{PAC Learning}}
+
+*** ERM for finite hypothesis classes
+We note that {{pac_learning.org::11}{Empirical Risk Minimization}} can easily overfit
+to the training data. To correct for this, we introduce inductive
+bias, restricting the hypothesis space $\mathcal{H}$.
+
+** {{machine_learning.org}{Machine Learning}}
+
+*** Measure of success
+We are interested in finding a hypothesis $h$ that has a small risk,
+or expected loss, typically using {{machine_learning.org::78}{Empirical Risk Minimization}}.
+
+** {{byron_boots_perspectives_on_machine_learning_and_robotics.org}{Byron Boots - Perspectives on Machine Learning and Robotics}}
+
+*** How should robots learn?
+{{byron_boots_perspectives_on_machine_learning_and_robotics.org::29}{Empirical Risk Minimization}} is too strong: data is not i.i.d, not batched, not
+in the model class. Solution: use online learning, that makes minimal
+assumptions.

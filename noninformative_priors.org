@@ -12,3 +12,10 @@ value of $\theta$ over another).
 
 An example of such a non-informative prior in the discrete space would
 be a uniform distribution over $\theta$.
+* 1 Linked References to "Non-informative Priors"
+
+** {{reference_prior.org}{Reference Prior}}
+
+The notion of reference prior is similar to that of a {{reference_prior.org::7}{Non-informative Priors}}, but there are subtle differences. The uniform prior is arguably
+non-informative, but is it not a good reference, because it is not
+always invariant under reparamaterization.

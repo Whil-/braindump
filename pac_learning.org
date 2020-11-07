@@ -286,3 +286,18 @@ learning theory states that in binary classification problems, uniform
 convergence is not only a sufficient condition for learnability, but
 is also a necessary condition. This is not the case for more general
 learning problems.
+* 3 Linked References to "PAC Learning"
+
+** {{vc_dimension.org}{VC-Dimension}}
+
+- tags :: {{vc_dimension.org::7}{The Bias-Complexity Tradeoff}}, {{vc_dimension.org::7}{PAC Learning}}
+
+** {{rademacher.org}{Rademacher Complexity}}
+
+In {{rademacher.org::7}{PAC Learning}}, We have shown that {{rademacher.org::7}{PAC Learning Â» Learning Via Uniform Convergence}}. Rademacher complexity measures the rate of uniform
+convergence. Rademacher complexity can also be used to provide generalization
+bounds.
+
+In {{rademacher.org::7}{PAC Learning}}, We have shown that {{rademacher.org::7}{PAC Learning Â» Learning Via Uniform Convergence}}. Rademacher complexity measures the rate of uniform
+convergence. Rademacher complexity can also be used to provide generalization
+bounds.

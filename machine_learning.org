@@ -559,3 +559,84 @@ bibliography:biblio.bib
 
 * Footnotes
 [fn:1] See [[https://drivendata.github.io/cookiecutter-data-science/][Home - Cookiecutter Data Science]].
+* 19 Linked References to "Machine Learning"
+
+** {{variational_inference.org}{Variational Inference}}
+
+- tags :: {{variational_inference.org::7}{Machine Learning Algorithms}}
+
+** {{topic_modelling.org}{Topic Modeling}}
+
+- tags :: {{topic_modelling.org::7}{Machine Learning}}
+
+** {{spiking_neural_networks.org}{Spiking Neural Networks}}
+
+- tags :: {{spiking_neural_networks.org::7}{Machine Learning}}
+
+** {{single_layer_xor.org}{Single Layer XOR}}
+
+- tags :: {{single_layer_xor.org::8}{Neuroscience â­}}, {{single_layer_xor.org::8}{Machine Learning}}
+
+** {{reinforcement_learning.org}{Reinforcement Learning}}
+
+- tags :: {{reinforcement_learning.org::9}{Machine Learning}}
+
+** {{recommender_systems.org}{Recommender Systems}}
+
+- tags :: {{recommender_systems.org::6}{Machine Learning}}
+
+** {{quantization.org}{Quantization}}
+
+- tags :: {{quantization.org::7}{Model Compression}}, {{quantization.org::7}{Machine Learning}}
+
+** {{q_learning.org}{Q-Learning}}
+
+- tags :: {{q_learning.org::7}{Machine Learning Algorithms}}, {{q_learning.org::7}{Temporal Difference Learning}}, {{q_learning.org::7}{Reinforcement Learning}}
+
+** {{policy_gradients.org}{Policy Gradients}}
+
+- tags :: {{policy_gradients.org::7}{Machine Learning Algorithms}}, {{policy_gradients.org::7}{Reinforcement Learning}}
+
+** {{pac_learning.org}{PAC Learning}}
+
+- tags :: {{pac_learning.org::7}{Machine Learning}}
+
+** {{nn_optimizer.org}{Neural Network Optimizer}}
+
+- tags :: {{nn_optimizer.org::7}{Machine Learning Algorithms}}
+
+** {{neural_ode.org}{Neural Ordinary Differential Equations (Review)}}
+
+- tags :: {{neural_ode.org::9}{Machine Learning Algorithms}}, {{neural_ode.org::9}{Stochastic Processes}}
+
+** {{model_compression.org}{Model Compression}}
+
+- tags :: {{model_compression.org::7}{Machine Learning Algorithms}}
+
+** {{machine_learning.org}{Machine Learning}}
+
+*** TODO Gaussian Discriminant Analysis
+In Gaussian Discriminant Analysis, p(x | y) is distributed to a
+{{machine_learning.org::394}{Machine Learning Â» Multivariate Normal Distribution}}.
+
+** {{likelihood_principle.org}{Likelihood Principle}}
+
+- tags :: {{likelihood_principle.org::7}{Machine Learning}}
+
+** {{information_theory.org}{Information Theory}}
+
+- tags :: {{information_theory.org::7}{Machine Learning}}, {{information_theory.org::7}{Statistics}}
+
+** {{how_to_know_kidd.org}{How To Know - Celeste Kidd}}
+
+- tags :: {{how_to_know_kidd.org::7}{Machine Learning}}, {{how_to_know_kidd.org::7}{NeurIPS}}
+
+** {{erm.org}{Empirical Risk Minimization}}
+
+In {{erm.org::7}{Machine Learning}}, the training set error is often called the
+/empirical error/ or /empirical risk/, and this is the error the
+classifier incurs over the sample:
+
+** {{an_opinionated_guide_to_ml_research.org}{Article: An Opinionated Guide to ML Research}}
+
+- tags :: {{an_opinionated_guide_to_ml_research.org::8}{Machine Learning}}, {{an_opinionated_guide_to_ml_research.org::8}{Research}}
