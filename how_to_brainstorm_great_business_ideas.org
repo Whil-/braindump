@@ -5,8 +5,8 @@
 #+roam_key: https://www.indiehackers.com/post/how-to-brainstorm-great-business-ideas-ab51c3d51c
 #+title: How to brainstorm great business ideas
 
-- tags :: {[Business]}
-- author :: {[Courtland Allen]}
+- tags :: [[id:242b8d43-d61d-4d41-b193-db903e181291][Business]]
+- author :: [[id:a49e74c9-1a2e-4706-88d6-2fc646401c96][Courtland Allen]]
 
 Executing the ideas require being strong in four main components:
 

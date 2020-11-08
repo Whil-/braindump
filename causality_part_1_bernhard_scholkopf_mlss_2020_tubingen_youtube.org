@@ -24,7 +24,7 @@ structure connecting the variables.
 An equation becomes structural by virtue of invariance to a domain of
 modifications.
 
-* {[Structural Causal Model]}
+* [[id:aa5c8002-a1ba-4d64-af54-38d1eafafdeb][Structural Causal Model]]
 :PROPERTIES:
 :ID:       7641ec39-6e89-4505-9363-d365b446a20a
 :END:

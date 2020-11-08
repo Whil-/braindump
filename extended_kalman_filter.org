@@ -3,11 +3,11 @@
 :END:
 #+title: Extended Kalman Filter
 
-- tags :: {[Bayes Filter]}, {[Kalman Filter]}, {[Information Filter]}
+- tags :: [[id:155935aa-af99-4629-b232-dfa0b48ad239][Bayes Filter]], [[id:f34829e1-86aa-4700-8c42-474ab7c24620][Kalman Filter]], [[id:bf77052e-e8c2-411b-94d8-cbecc09519c2][Information Filter]]
 
 * Key Idea
 
-Remove linearity assumption from the {[Kalman Filter]}:
+Remove linearity assumption from the [[id:f34829e1-86aa-4700-8c42-474ab7c24620][Kalman Filter]]:
 
 \begin{align}
   x_t &= g(u_t, x_{t-1}) + \epsilon_t \\

@@ -3,11 +3,11 @@
 :END:
 #+title: PAC Learning
 
-- tags :: {[Machine Learning]}
+- tags :: [[id:5a6f15fa-e5d4-474e-8ead-56b22d890512][Machine Learning]]
 
 * ERM for finite hypothesis classes
 
-We note that {[Empirical Risk Minimization]} can easily overfit
+We note that [[id:ff243a09-9980-4738-b638-0521cc2bbf42][Empirical Risk Minimization]] can easily overfit
 to the training data. To correct for this, we introduce inductive
 bias, restricting the hypothesis space $\mathcal{H}$.
 

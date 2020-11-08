@@ -40,6 +40,6 @@ optimization of simple policies.
 in simulated environments and games. However, the algorithms are data-hungry,
 and the objective function is non-convex and difficult to optimize.
 
-{[Imitation Learning]} provides a general way to accelerate policy learning, by
+[[id:7ecd7d57-00d1-4a58-9061-105e1c324850][Imitation Learning]] provides a general way to accelerate policy learning, by
 leveraging models/simulators and experts. We can leverage surrogate objective
 functions that are easier to optimize.

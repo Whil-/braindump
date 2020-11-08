@@ -3,7 +3,7 @@
 :END:
 #+title: Information Filter
 
-- tags :: {[Gaussian Filter]}, {[Bayes Filter]}
+- tags :: [[id:04af721e-9cee-4a00-a426-baec803b108c][Gaussian Filter]], [[id:155935aa-af99-4629-b232-dfa0b48ad239][Bayes Filter]]
 
 * Key Idea
 

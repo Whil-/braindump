@@ -4,7 +4,7 @@
 #+title: Computer Vision
 
 * Prerequisites
-{[Linear Algebra]}
+[[id:3319ef96-2df4-4c7e-98f4-3fc5978bd147][Linear Algebra]]
 
 * Camera Basics
 
@@ -446,7 +446,7 @@ $3 \times 3$ homogeneous matrix form.
 http://ksimek.github.io/2013/08/13/intrinsic/
 
 \begin{align}
-    P &= \overbrace{K}^\text{Intrinsic Matrix} \times \overbrace{[R \mid  \mathbf{t}]}^\text{Extrinsic Matrix} \\[0.5em]
+    P &= \overbrace{K}^\text{Intrinsic Matrix} \times \overbrace[[id:nil][R \mid  \mathbf{t}]]^\text{Extrinsic Matrix} \\[0.5em]
      &=
         \overbrace{
 

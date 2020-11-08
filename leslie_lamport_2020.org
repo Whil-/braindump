@@ -4,7 +4,7 @@
 #+title: If You're Not Writing a Programming Language, Don't Use A Programming Language - Leslie Lamport
 
 - title :: If You're Not Writing a Programming Language, Don't Use A Programming Language
-- speaker :: {[Leslie Lamport]}
+- speaker :: [[id:03759a94-7cea-456a-b14d-312776256bd8][Leslie Lamport]]
 - date :: <2020-01-16 Thu>
 
 #+begin_quote

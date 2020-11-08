@@ -7,7 +7,7 @@
 #+author: Jethro Kuan
 #+email: jethrokuan95@gmail.com
 
-- tags :: {[Linux]}, {[Operating Systems]}
+- tags :: [[id:a5dfff84-6468-4b04-bb55-bbde427a686f][Linux]], [[id:e5f08144-5c0d-4a74-a10a-34a37b89b49c][Operating Systems]]
 
 * Why Containers
   :PROPERTIES:

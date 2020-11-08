@@ -149,7 +149,7 @@ precedence:
 
 * Parsing
 
-Parsers use {[Theory Of Computation » Pushdown Automata]} to do parsing. See [[http://jsmachines.sourceforge.net/machines/][LR online parsing
+Parsers use [[id:1c414780-37b3-4266-a6be-26aba08babbb][Pushdown Automata]] to do parsing. See [[http://jsmachines.sourceforge.net/machines/][LR online parsing
 machines]] for an online parsing tool.
 
 ** Recursive-Descent Parsing

@@ -4,7 +4,7 @@
 #+title: Markov Localization
 
 * Markov Localization
-A direct extension of the {[Bayes Filter]}, but using the map $m$ of the
+A direct extension of the [[id:155935aa-af99-4629-b232-dfa0b48ad239][Bayes Filter]], but using the map $m$ of the
 environment:
 
 \begin{algorithm}

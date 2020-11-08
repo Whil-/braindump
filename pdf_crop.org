@@ -3,7 +3,7 @@
 :END:
 #+title: PDF Cropping
 
-- tags :: {[Pdf Tools]}
+- tags :: [[id:8742274c-9645-42a7-b744-48d5720e280c][Pdf Tools]]
 
 Cropping PDFs can be done through ~pdfcrop~. ~pdfcrop~ only takes a
 single argument, use a bash function to batch crop:

@@ -3,7 +3,7 @@
 :END:
 #+title: VC-Dimension
 
-- tags :: {[The Bias-Complexity Tradeoff]}, {[PAC Learning]}
+- tags :: [[id:26dd708c-44ba-4f4f-89d6-e40839693fb9][The Bias-Complexity Tradeoff]], [[id:b35169d4-1829-401d-a473-0827592b2b78][PAC Learning]]
 
 cite:shalev2014understanding
 
@@ -19,7 +19,7 @@ To see that this is true, we provide a counterexample.
 let $\mathcal{H}$ be the set of threshold functions over the real
 line, namely, $\mathcal{H} = \left\{h_a : a \in \mathbb{R}\right\}$,
 where $h_a : \mathbb{R} \rightarrow \left\{ 0,1\rightarrow \right\}$ is a
-function such that $h_a(x) = \mathbb{I}_{[x < a]}$. Clearly $H$ is of
+function such that $h_a(x) = \mathbb{I}_[[id:nil][x < a]]$. Clearly $H$ is of
 infinite size. However, we can easily show that $\mathcal{H}$ is PAC
 learnable, with sample complexity:
 

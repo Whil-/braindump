@@ -3,7 +3,7 @@
 :END:
 #+title: Transfer Learning
 
-- tags :: {[Reinforcement Learning]}
+- tags :: [[id:be63d7a1-322e-40df-a184-90ad2b8aabb4][Reinforcement Learning]]
 
 Prior understanding of problem structure can help us solve complex
 tasks quickly. Perhaps solving prior tasks would help acquire useful
@@ -91,7 +91,7 @@ cite:rusu15_polic_distil is able to:
 
 1. Compress policies learnt on single games into smaller models
 2. Build agents capable of playing multiple games
-3. Improve the stability of the {[Q-Learning]} by distilling
+3. Improve the stability of the [[id:ae0b04fd-500b-4592-a20b-556f26a1b69d][Q-Learning]] by distilling
    online the policy of the best performing agent
 
 bibliography:biblio.bib

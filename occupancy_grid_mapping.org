@@ -3,7 +3,7 @@
 :END:
 #+title: Occupancy Grid Mapping
 
-In {[Robot Localization]}, it is assumed that the robot is given a map in
+In [[id:9c0ebb8f-6582-4daf-bb84-7aa299c2d204][Robot Localization]], it is assumed that the robot is given a map in
 advance. This is sometimes not the case.
 
 Acquiring maps with mobile robots is a challenging task, because:

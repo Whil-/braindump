@@ -3,7 +3,7 @@
 :END:
 #+title: PDF Nup
 
-- tags :: {[Pdf Tools]}
+- tags :: [[id:8742274c-9645-42a7-b744-48d5720e280c][Pdf Tools]]
 
 This puts several pages of a PDF together. ~2x1~ is a particularly
 common combination.

@@ -112,7 +112,7 @@ of the resulting grid space is reversed.
 #+downloaded: /tmp/screenshot.png @ 2018-08-25 15:28:49
 [[file:images/linear_algebra/screenshot_2018-08-25_15-28-49.png]]
 
-In 3D space, the determinant is the volume of the parallelpiped. 
+In 3D space, the determinant is the volume of the parallelpiped.
 
 \begin{equation}
 det \left( \begin{bmatrix}
@@ -146,7 +146,7 @@ rotate the grid space anti-clockwise 90 degrees: $\vec{x} = A^{^{-1}}
 \vec{v}$.
 
 Suppose the determinant of the transformation is 0. Then we know that
-it does not have an inverse. However, solutions can still exist. 
+it does not have an inverse. However, solutions can still exist.
 
 * Rank
 The rank is the number of dimensions of the output of the
@@ -328,7 +328,7 @@ Given an input data matrix $A$ consisting of $m$ documents and $n$
 terms, we can decompose it into 3 matrices.
 
 \begin{equation}
-  A_{[m \times n]} = U_{[m \times r]} \Sigma_{[r \times r]} V_{[n
+  A_[[id:nil][m \times n]] = U_[[id:nil][m \times r]] \Sigma_[[id:nil][r \times r]] V_{[n
     \times r]}^T
 \end{equation}
 

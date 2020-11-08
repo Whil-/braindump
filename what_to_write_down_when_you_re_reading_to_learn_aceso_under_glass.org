@@ -7,6 +7,6 @@
 #+title: What to write down when you’re reading to learn – Aceso Under Glass
 
 - source :: https://acesounderglass.com/2020/06/10/what-to-write-down-when-youre-reading-to-learn/
-- tags :: {[Zettelkasten]}
+- tags :: [[id:c178794c-78d1-459d-9725-15f2f6cd970a][Zettelkasten]]
 
 For deep research, write down things you find interesting. A good indication of what's interesting is when an author makes you pause to think. Write down things that you're thinking about.

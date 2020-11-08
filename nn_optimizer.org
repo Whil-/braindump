@@ -3,7 +3,7 @@
 :END:
 #+title: Neural Network Optimizer
 
-- tags :: {[Machine Learning Algorithms]}
+- tags :: [[id:fb39fedd-bece-4d0c-998d-e57d7a712408][Machine Learning Algorithms]]
 * 1 Linked References to "Neural Network Optimizer"
 
 ** {{lars_optimizer.org}{LARS Optimizer}}

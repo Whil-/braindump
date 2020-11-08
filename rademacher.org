@@ -3,7 +3,7 @@
 :END:
 #+title: Rademacher Complexity
 
-In {[PAC Learning]}, We have shown that {[PAC Learning » Learning Via Uniform Convergence]}. Rademacher complexity measures the rate of uniform
+In [[id:b35169d4-1829-401d-a473-0827592b2b78][PAC Learning]], We have shown that [[id:9425a198-9e63-46fd-ad0e-dae274f76a1a][Learning Via Uniform Convergence]]. Rademacher complexity measures the rate of uniform
 convergence. Rademacher complexity can also be used to provide generalization
 bounds.
 

@@ -3,7 +3,7 @@
 :END:
 #+title: Velocity Motion Model
 
-- tags :: {[Odometry Motion Model]}, {[Motion Model With Maps]}
+- tags :: [[id:cde6efa7-e47e-4a22-a35d-98e87ff5ca9f][Odometry Motion Model]], [[id:a2ae7699-5207-4719-961d-deb297dffae2][Motion Model With Maps]]
 
 The velocity motion model assumes that the robot is controlled through
 2 velocities: rotational and translational velocity:

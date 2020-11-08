@@ -71,7 +71,7 @@ If we have positive data with confidence, we can train a classifier.
 Others: Similar-unlabelled etc.
 
 * Fast Computation of Uncertainty in Deep Learning
-- author :: {[Emtiyaz Khan]}
+- author :: [[id:46325268-88a7-4873-9b84-c3ffb7090325][Emtiyaz Khan]]
 - links :: https://emtiyaz.github.io/
 
 Uncertainty quantifies the confidence in the prediction of a model,

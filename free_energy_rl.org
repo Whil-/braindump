@@ -3,7 +3,7 @@
 :END:
 #+title: Free-Energy Reinforcement Learning
 
-- tags :: {[Reinforcement Learning]}
+- tags :: [[id:be63d7a1-322e-40df-a184-90ad2b8aabb4][Reinforcement Learning]]
 
 This is a framework proposed by Sallans and Hinton in 2004
 cite:sallans04a_ferl. The key insight is that a product of experts

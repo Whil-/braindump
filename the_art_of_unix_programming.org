@@ -6,7 +6,7 @@
 - title :: The Art Of Unix Programming
 - author :: Ken Thompson
 - personal rating :: 5/5
-- tags :: {[Books]}
+- tags :: [[id:d1125f42-4a2d-4287-b902-48a1df9a6761][Books]]
 
 In The Art of Unix Programming, Ken Thompson was quoted to have
 provided the following design rules:

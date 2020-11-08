@@ -6,7 +6,7 @@
 #+title: The opt-out illusion - Technology - TLS
 
 - source :: https://www.the-tls.co.uk/articles/the-opt-out-illusion/
-- tags :: {[Privacy]}
+- tags :: [[id:eef00945-bc8b-4c52-ae3b-7ab76a23e98c][Privacy]]
 
 #+begin_quote
 Opting out is an illusion. The extraction of our behavioural data is non-negotiable.

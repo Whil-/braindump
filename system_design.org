@@ -3,7 +3,7 @@
 :END:
 #+title: System Design
 
-- tags :: {[Software Engineering]}, {[Coding Interview Cheatsheet]}
+- tags :: [[id:b7503ab8-1c6f-4b0f-bcee-019ac9ad723a][Software Engineering]], [[id:16f9812c-3186-48b3-9407-8e6aca57790a][Coding Interview Cheatsheet]]
 
 * Basics
 1. SQL, noSQL

@@ -11,7 +11,7 @@ experience, inspired by synaptic plasticity. This is to bridge the gap
 with biological agents, which are able to learn quickly from prior
 experience, mastering environments with changing features.
 
-An alternative to {[Meta Learning]}, synaptic plasticity strengthens and
+An alternative to [[id:c831177e-e629-4950-891d-62a9863dab03][Meta Learning]], synaptic plasticity strengthens and
 weakens connections between neurons based on neural activity: whether
 they fire together.
 

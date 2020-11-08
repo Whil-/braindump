@@ -405,7 +405,7 @@ The automaton for $R$ also serves as the automaton for $(R)$.
 - $(LM)N = L(MN)$
 - $\emptyset + L = L + \emptyset = L$. $\emptyset$ is the identity for union.
 - $\epsilon L = L \epsilon = L$. $\epsilon$ is the identity for concatenation.
-- $\emptyset L = L\emptyset = \emptyset$. $\emptyset$ is the annihilator for concatenation.   
+- $\emptyset L = L\emptyset = \emptyset$. $\emptyset$ is the annihilator for concatenation.
 - $L(M + N) = LM + LN$ (left distributive)
 - $(M + N)L  = ML + NL$ (right distributive)
 - $L + L = L$ (idempotence law)
@@ -742,7 +742,7 @@ Let $P = (Q, \Sigma, \Gamma, \delta, q_0, Z_0, F)$ be a PDA. We define $N(P) = \
 $w$ that $P$ can consume and at the same time empty its stack.
 
 *** From Empty Stack to Final State
-*Theorem:* 
+*Theorem:*
 
 If $L = N(P_N)$ for some PDA $P_N$, then there is a PDA $P_F$
 such that $L = L(P_F)$.
@@ -857,8 +857,11 @@ First, we simplify our task by modifying $P$ slightly to give it the
 following three features.
 
 *** Deterministic Pushdown Automata
+:PROPERTIES:
+:ID:       20201108T115325.201764
+:END:
 DPDAs accept a class of languages between the regular languages and
-the CFLs. 
+the CFLs.
 
 We can easily show that DPDAs accept all regular languages by making
 it simulate a DFA (ignoring the stack).
@@ -1299,7 +1302,7 @@ $N$'s finite control. After visiting each head marker and storing the
 scanned symbol in a component of the finite control, $n$ knows what
 tape symbols have been scanned by each of $M$'s heads. $N$ also knows
 the state of $M$, which it stores in $N$'s own finite control. Thus,
-$N$ knows what move $M$ will make. 
+$N$ knows what move $M$ will make.
 
 $N$ can now revisit each of the head markers on its tape, changing the
 symbol in the track representing the corresponding tapes of $M$, and

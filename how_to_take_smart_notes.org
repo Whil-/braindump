@@ -3,8 +3,8 @@
 :END:
 #+title: How To Take Smart Notes
 
-- author :: {[Sonke Ahrens]}
-- tags :: {[Writing]}, {[Note-taking]}, {[Books]}, {[Productivity]}
+- author :: [[id:a9bf732e-4a81-463d-a49c-0c5777e94e35][Sonke Ahrens]]
+- tags :: [[id:464665d4-0806-422b-b984-e65bb0120e9f][Writing]], [[id:05a63abc-36d6-4a04-8693-bd1bfd5c46c8][Note-taking]], [[id:d1125f42-4a2d-4287-b902-48a1df9a6761][Books]], [[id:563dcf37-472a-4203-b037-5a1635084ae9][Productivity]]
 - recommended by :: [[file:../../../../Dropbox/org/braindump/org/conor_white_sullivan.org][Conor White-Sullivan]]
 
 * Book Notes
@@ -96,7 +96,7 @@
 
 #+begin_quote
 Notes aren't a record of my thinking process. They are my thinking
-process. -- {[Richard Feynman]}
+process. -- [[id:915ee121-8a13-46dd-9005-73eba3f730a2][Richard Feynman]]
 #+end_quote
 
 The mind is extremely reliant of external scaffolding:
@@ -107,14 +107,14 @@ physics or other kinds of intellectual endeavour easier, they make it
 possible -- Neil Levy (Neuroethics and the Extended Mind)
 #+end_quote
 
-Hence, use the {[Zettelkasten]} method. To get around this idea of
+Hence, use the [[id:c178794c-78d1-459d-9725-15f2f6cd970a][Zettelkasten]] method. To get around this idea of
 note-taking, it is important to understand that:
 
 1. Note sequences are meant for developing ideas, not storing them
 2. Links and indices are helpful, but not central features
 3. The workflow is streamlined to writing
 
-In {[Zettelkasten]}, the most time-consuming portion is determining /the
+In [[id:c178794c-78d1-459d-9725-15f2f6cd970a][Zettelkasten]], the most time-consuming portion is determining /the
 order/ for the notes in which to write about.
 
 * Concrete Changes
