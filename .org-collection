@@ -1,63 +1,8 @@
 ; -*- mode: emacs-lisp -*-
 (org-collection-definition
  :name "braindump-org"
- :require (org
-           org-agenda
-           org-brain
-           org-roam)
+ :require (org-roam)
  :customization (;; todo and related
-                 (org-todo-keywords ((sequence "TODO(t!)"
-                                               "|"
-                                               "DONE(d!)" "CANCELLED(c!)")))
-                 (org-log-done note) ; See: [[info:org#Closing items]]
-                 (org-enforce-todo-dependencies t) ; see [[info:org#TODO dependencies]]
-                 (org-todo-keyword-faces (("DONE"      :foreground "forest green" :weight bold)
-                                          ("CANCELLED" :foreground "orange"      :weight bold)))
-                 (org-hierarchical-todo-statistics nil)
-                 (org-archive-location "%s_archive::datetree")
-                 (org-default-notes-file "Notes.org")
-
-                 ;; logging
-                 (org-log-into-drawer t)
-
-                 ;; source code
-                 (org-src-window-setup current-window)
-                 (org-src-fontify-natively t)
-                 (org-babel-load-languages ((calc .t)
-                                            (emacs-lisp . t)
-                                            (python . t)
-                                            (sqlite . t)
-                                            (plantuml . t)
-                                            (dot . t)
-                                            (R . t)))
-                 (org-confirm-babel-evaluate nil)
-
-                 ;; Footnotes
-                 (org-footnote-section nil)
-
-                 ;; Capture
-                                  ;; Capture
-                 (org-capture-templates (("t" "Capture Task" entry (file+headline "active/Tasks.org" "Inbox")
-                                          "* TODO %?
-:PROPERTIES:
-:CREATED:  %U
-:END:
-%i")))
-
-                 ;; Misc
-                 (org-adapt-indentation nil)
-                 (org-hide-leading-stars t)
-                 (org-startup-with-inline-images t)
-                 (org-startup-folded content)
-                 (org-startup-indented nil)
-                 (org-image-actual-width nil)
-                 (org-use-speed-commands t)
-                 (org-catch-invisible-edits show)
-                 (org-imenu-depth 3)
-
-                 ;; Exporting
-                 (org-export-backends (md html ascii))
-
                  ;; Attachments
                  (org-attach-id-to-path-function-list (org-attach-id-ts-folder-format
                                                        org-attach-id-uuid-folder-format))
@@ -65,29 +10,6 @@
                  (org-attach-id-dir ":path:attachments")
                  (org-attach-use-inheritance t)
                  (org-return-follows-link t)
-
-                 ;; Agenda
-                 (org-agenda-files (":path:/active"))
-                 (org-agenda-file-regexp ".*\\.org\\'")
-                 (org-agenda-prefix-format ((agenda . " %i %-12:c%?-12t% s")
-                                            (timeline . "  % s")
-                                            (todo . " %i %-12:c")
-                                            (tags . " %i %-12:c%b")
-                                            (search . " %i %-12:c%b")))
-
-                 ;; Det enda jag ändrar är att sortera todo's enligt deras todo-ordning.
-                 ;; I övrigt är allt default.
-                 (org-agenda-sorting-strategy ((agenda habit-down time-up priority-down category-keep)
-                                               (todo todo-state-up priority-down category-keep)
-                                               (tags priority-down category-keep)
-                                               (search category-keep)))
-                 (org-agenda-inhibit-startup t)
-                 (org-agenda-span week)
-                 (org-agenda-todo-keyword-format "%-6s")
-                 (org-agenda-compact-blocks t)
-                 (org-agenda-show-all-dates t)
-                 (org-agenda-text-search-extra-files (agenda-archives))
-                 (org-agenda-sticky t)
 
                  ;; Org ID
                  (org-id-link-to-org-use-id create-if-interactive-and-no-custom-id)
@@ -97,76 +19,4 @@
                  (org-roam-tag-sources (prop all-directories))
                  (org-roam-directory ":path:")
                  (org-roam-db-location "~/.emacs.d/.cache/braindum-org/org-roam.db")
-                 (org-roam-buffer-position bottom)
-                 (org-roam-capture-templates
-                  (("d" "default" plain #'org-roam-capture--get-point
-                    "%?"
-                    :file-name "${slug}"
-                    :head ":PROPERTIES:
-:CREATED:  %U
-:ID:       %<%Y%m%dT%H%M%S.%6N>
-:END:
-#+TITLE: ${title}
-"
-                    :unnarrowed t)
-                   ("n" "Notes for Meetings" plain #'org-roam-capture--get-point
-                    "%?"
-                    :file-name "daily/%<%Y>/%<%Y-%m-%d>"
-                    :head "* <%<%Y-%m-%d %a>> Meeting
-:PROPERTIES:
-:CREATED:  %U
-:ID:       %<%Y%m%dT%H%M%S.%6N>
-:END:
-** Attendees
--
-** Meeting message
-** Preparation Notes
-** Meeting Notes
-"
-                    :unnarrowed t)
-                   ("w" "Weekplan" plain #'org-roam-capture--get-point
-                    "%?"
-                    :file-name "plans/%<%Y>/%<W%W>.org"
-                    :head ":PROPERTIES:
-:CREATED:  %U
-:ID:       %<%Y%m%dT%H%M%S.%6N>
-:END:
-#+TITLE: Plans week %<%W>
-- tags :: [[id:plans][Plans]]
-
-* Stuff needed
-* Stuff wanted
-"
-                    :unnarrowed t)
-                   ("m" "Monthplan" plain #'org-roam-capture--get-point
-                    "%?"
-                    :file-name "plans/%<%Y>/%<%m_%B>.org"
-                    :head ":PROPERTIES:
-:CREATED:  %U
-:ID:       %<%Y%m%dT%H%M%S.%6N>
-:END:
-#+TITLE: Plans week %<%W>
-- tags :: [[id:plans][Plans]]
-
-* Stuff needed
-* Stuff wanted
-"
-                    :unnarrowed t)))
-                 (org-roam-dailies-capture-templates
-                  (("d" "daily" plain #'org-roam-capture--get-point
-                    ""
-                    :immediate-finish t
-                    :file-name "daily/%<%Y>/%<%Y-%m-%d>"
-                    :head ":PROPERTIES:
-:CREATED:  %U
-:ID:       %<%Y%m%d>
-:END:
-#+TITLE: %<%Y-%m-%d>")))
-
-                 ;; Org brain
-                 (org-brain-path ":path:")
-                 (org-brain-visualize-default-choices all)
-                 (org-brain-title-max-length 35)
-                 (org-brain-include-file-entries nil)
-                 (org-brain-file-entries-use-title nil)
-                 (org-brain-headline-entry-name-format-string "%2$s")))
+                 (org-roam-buffer-position bottom)))
