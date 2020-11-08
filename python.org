@@ -24,3 +24,11 @@ Python is an interpreted, general-purpose, high-level {[Programming Languages]}.
 - [[https://github.com/psf/black][psf/black]]
 - [[https://gregoryszorc.com/blog/2019/01/10/what-i've-learned-about-optimizing-python/][Gregory Szorc's Digital Home | What I've Learned About Optimizing Python]]
 - [[https://github.com/benfred/py-spy][benfred/py-spy: Sampling profiler for Python programs]]
+* 2 Linked References to "Python"
+
+** {{python.org}{Python}}
+
+*** Index
+- {{python.org::14}{Python Import Resolution}}
+
+- {{python.org::15}{Python Default Parameter Values}}

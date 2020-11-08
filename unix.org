@@ -4,3 +4,25 @@
 #+title: Unix
 
 - tags :: {[Linux]}
+* 5 Linked References to "Unix"
+
+** {{unix_lsof.org}{Lsof}}
+
+- tags :: {{unix_lsof.org::7}{Unix}}
+
+** {{unix_find.org}{Find (CLI Tool)}}
+
+- tags :: {{unix_find.org::7}{Unix}}
+
+** {{unix_awk.org}{Awk}}
+
+- tags :: {{unix_awk.org::7}{Unix}}
+
+** {{nix.org}{Nix/NixOS}}
+
+*** Nix Software
+- [[https://github.com/target/lorri][target/lorri]] provides great [[https://direnv.net/][direnv]] ({{nix.org::12}{Unix}}) /nix-shell integration
+
+** {{git.org}{Git}}
+
+- tags :: {{git.org::7}{Unix}}, {{git.org::7}{Version Control}}

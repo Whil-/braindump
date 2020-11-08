@@ -18,5 +18,4 @@ refers to both the package manager, and the name of the {[Programming Languages]
 - [[https://github.com/justinwoo/nix-shorts][Nix Shorts]]
 
 * Articles
-
 - [[https://christine.website/blog/i-was-wrong-about-nix-2020-02-10][I was Wrong about Nix - Christine Dodrill]]

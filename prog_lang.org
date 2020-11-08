@@ -2,3 +2,54 @@
 :ID:       02f0d648-baae-478f-b738-448cf53e2a63
 :END:
 #+title: Programming Languages
+* 12 Linked References to "Programming Languages"
+
+** {{swift.org}{Swift}}
+
+- tags :: {{swift.org::7}{Programming Languages}}
+
+** {{scala.org}{Scala}}
+
+- tags :: {{scala.org::7}{Programming Languages}}
+
+** {{python.org}{Python}}
+
+Python is an interpreted, general-purpose, high-level {{python.org::7}{Programming Languages}}. Some properties of Python include:
+
+** {{ocaml.org}{OCaml}}
+
+- tags :: {{ocaml.org::7}{Programming Languages}}
+
+** {{nix.org}{Nix/NixOS}}
+
+NixOS is a {{nix.org::9}{Linux}} {{nix.org::9}{Operating Systems}} built upon the Nix package manager. Nix
+refers to both the package manager, and the name of the {{nix.org::9}{Programming Languages}} it is written in.
+
+** {{javascript.org}{JavaScript}}
+
+JavaScript is an interpreted {{javascript.org::7}{Programming Languages}}, originally designed
+for the {{javascript.org::7}{Web Development}}.
+
+** {{java.org}{Java}}
+
+- tags :: {{java.org::7}{Programming Languages}}
+
+** {{haskell.org}{Haskell}}
+
+- tags :: {{haskell.org::8}{Programming Languages}}
+
+** {{emacs_lisp.org}{Emacs Lisp}}
+
+- tags :: {{emacs_lisp.org::7}{Programming Languages}}
+
+** {{cplusplus.org}{C++ Language}}
+
+- tags :: {{cplusplus.org::7}{Programming Languages}}
+
+** {{c_lang.org}{The C Language}}
+
+- tags :: {{c_lang.org::7}{Programming Languages}}
+
+** {{arm.org}{ARM Assembly Programming}}
+
+- tags :: {{arm.org::7}{Operating Systems}}, {{arm.org::7}{Programming Languages}}

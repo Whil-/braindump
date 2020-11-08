@@ -6,4 +6,16 @@
 - tags :: {[Unix]}
 
 * Links
+:PROPERTIES:
+:ID:       20201107T225153.613626
+:END:
 [[http://sparky.rice.edu/~hartigan/awk.html]]
+* 2 Linked References to "Awk"
+
+** {{grasp_estimation.org}{Grasp Estimation}}
+
+{{grasp_estimation.org::15}{Awk}}
+{{grasp_estimation.org::15}{Awk Â» Links}}
+
+{{grasp_estimation.org::16}{Awk}}
+{{grasp_estimation.org::16}{Awk Â» Links}}
