@@ -3,7 +3,7 @@
 :END:
 #+title: How To Write a Technical Paper
 
-- tags :: [[id:464665d4-0806-422b-b984-e65bb0120e9f][Writing]], [[id:e45f2c4d-052e-48e7-b985-d9330d7a835d][Papers]]
+- tags :: {[Writing]}, {[Papers]}
 - paper :: cite:Whiteside2017HowTW
 
 * Abstract

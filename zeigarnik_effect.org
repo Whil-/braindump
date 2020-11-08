@@ -5,7 +5,7 @@
 
 Simply put, the Zeigarnik effect is the observation that /interrupted
 tasks are better remembered than completed ones/. This has
-ramifications for [[id:563dcf37-472a-4203-b037-5a1635084ae9][Productivity]].
+ramifications for {[Productivity]}.
 
 An example of applying the Zeigarnik Effect would be to stop coding
 halfway while having a good streak, and come back another day.

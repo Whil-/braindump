@@ -3,7 +3,7 @@
 :END:
 #+title: Reference Prior
 
-The notion of reference prior is similar to that of a [[id:a967cbbd-0135-4a0f-b695-f493ce6edec8][Non-informative Priors]], but there are subtle differences. The uniform prior is arguably
+The notion of reference prior is similar to that of a {[Non-informative Priors]}, but there are subtle differences. The uniform prior is arguably
 non-informative, but is it not a good reference, because it is not
 always invariant under reparamaterization.
 
@@ -15,11 +15,11 @@ given by:
   p_\gamma (\gamma) = p(\theta)|J| = |J|
 \end{equation}
 
-where $|J| = \frac{d \theta}{d \gamma}$ from the [[id:8a78cb4c-8c24-48b1-9e9d-c5e743713733][Change of Variables Theorem]].
+where $|J| = \frac{d \theta}{d \gamma}$ from the {[Change of Variables Theorem]}.
 
 \begin{equation}
   p_\gamma (\gamma) = e^\gamma, - \infty < \gamma < + \infty
 \end{equation}
 
 which is clearly not uniform. A prior that is invariant to
-transformation, and easy to compute, is the [[id:82c97e2a-e092-4c69-a67b-703bf4e3f221][Jeffreys Prior]].
+transformation, and easy to compute, is the {[Jeffreys Prior]}.

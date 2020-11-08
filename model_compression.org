@@ -3,4 +3,4 @@
 :END:
 #+title: Model Compression
 
-- tags :: [[id:fb39fedd-bece-4d0c-998d-e57d7a712408][Machine Learning Algorithms]]
+- tags :: {[Machine Learning Algorithms]}

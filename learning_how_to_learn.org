@@ -3,7 +3,7 @@
 :END:
 #+title: Learning How To Learn
 
-- tags :: [[id:54c22d91-285c-4dd4-835c-9fc737534cc9][Learning]]
+- tags :: {[Learning]}
 
 * What is learning?
 

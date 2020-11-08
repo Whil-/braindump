@@ -3,7 +3,7 @@
 :END:
 #+title: Numpy
 
-- tags :: [[id:ce4150a8-2082-4f49-ad40-aac2943dfe07][Data Science]]
+- tags :: {[Data Science]}
 
 * Resources
 - [[https://www.labri.fr/perso/nrougier/from-python-to-numpy/][From Python to Numpy]]

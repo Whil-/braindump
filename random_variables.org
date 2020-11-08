@@ -3,7 +3,7 @@
 :END:
 #+title: Random Variables
 
-- tags :: [[id:3ec39abc-ea53-4087-8523-7ace154c6aa6][Statistics]]
+- tags :: {[Statistics]}
 
 * Introduction
 It frequently occurs that in performing an experiment, we are mainly

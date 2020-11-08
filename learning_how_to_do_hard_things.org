@@ -5,7 +5,7 @@
 #+roam_key: cite:maciver_hard_things
 #+title: Learning How To Do Hard Things
 
-- tags :: [[id:54c22d91-285c-4dd4-835c-9fc737534cc9][Learning]]
+- tags :: {[Learning]}
 - paper :: cite:maciver_hard_things
 
 The key is to isolate one aspect of the problem that is difficult and

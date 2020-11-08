@@ -3,7 +3,7 @@
 :END:
 #+title: Meta Learning
 
-- tags :: [[id:be63d7a1-322e-40df-a184-90ad2b8aabb4][Reinforcement Learning]]
+- tags :: {[Reinforcement Learning]}
 
 - Learning to learn: learn an update rule from related tasks
 

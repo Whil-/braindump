@@ -4,7 +4,7 @@
 #+title: Computer Vision
 
 * Prerequisites
-[[id:3319ef96-2df4-4c7e-98f4-3fc5978bd147][Linear Algebra]]
+{[Linear Algebra]}
 
 * Camera Basics
 

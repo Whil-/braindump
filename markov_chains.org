@@ -3,7 +3,7 @@
 :END:
 #+title: Markov Chains
 
-- tags :: [[id:142c8033-00a7-4a2a-83e5-33e1349ade5a][Stochastic Processes]]
+- tags :: {[Stochastic Processes]}
 
 * Introduction
 

@@ -70,7 +70,7 @@ draws with replacement $M$ particles from $\overline{X}_t$. Whereas
 $\overline{X}_t$ is distributed according to
 $\overline{\text{bel}}(x_t)$, the resampling causes them to be
 distributed according to the posterior $\text{bel}(x_t) = \eta p(z_t |
-x_t^[[id:nil][m]])\overline{\text{bel}}(x_t)$. (see [[id:9a108a6e-8c01-49db-813d-6dcfe5825a4d][Importance Sampling]])
+x_t^[[id:nil][m]])\overline{\text{bel}}(x_t)$. (see {[Importance Sampling]})
 
 * Properties
 

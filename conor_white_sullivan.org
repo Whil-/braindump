@@ -3,6 +3,6 @@
 :END:
 #+title: Conor White-Sullivan
 
-Creator of [[id:71b27c1b-b851-4128-a5d5-1fed8dd900bb][Roam Research]].
+Creator of {[Roam Research]}.
 
 - socials :: [[https://twitter.com/Conaw][Twitter]]

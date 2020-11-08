@@ -11,4 +11,4 @@ A structural causal model satisfies the following conditions:
 3. Each observable $X_{i}$ is a density, with independent unexplained random
    variables $U_{i}, \dots, U_{n}$.
 
-The structural causal model satisfies the [[id:87e2d47f-eaab-45e4-827c-3dfe587aa598][Reichenbach's principle]].
+The structural causal model satisfies the {[Reichenbach's principle]}.

@@ -4,7 +4,7 @@
 #+hugo_slug: self_supervised_learning
 #+title: Self-supervised Learning
 
-[[id:70455587-806d-456a-b172-9a0f46346a18][Prediction is the Essence of Intelligence]]
+{[Prediction is the Essence of Intelligence]}
 
 * Self-supervised Learning vs Other Learning Paradigms
 :PROPERTIES:
@@ -12,9 +12,9 @@
 :END:
 In self-supervised learning, the machine predicts any part of its input for any observed part. For example, it may predict future frames in videos. This results in a lot of feedback.
 
-In [[id:be63d7a1-322e-40df-a184-90ad2b8aabb4][Reinforcement Learning]], the machine predicts a scalar reward given weak feedback once in a while. Since there is very little feedback, it seems impossible to learn any complex representations in a short amount of time.
+In {[Reinforcement Learning]}, the machine predicts a scalar reward given weak feedback once in a while. Since there is very little feedback, it seems impossible to learn any complex representations in a short amount of time.
 
-See [[id:cc520cb6-0a5c-4944-88e4-b1c0ce4be407][LeCun's Cake Analogy]].
+See {[LeCun's Cake Analogy]}.
 
 * Image-based
 

@@ -12,7 +12,7 @@ In Gpipe, neural networks with sequential layers are partitioned
 across accelerators. The pipeline parallelism divides each input
 mini-batch into smaller micro-batches, enabling different accelerators
 to work on different micro-batches simultaneously. This is especially
-useful in [[id:1c9a7af1-fe4f-49b7-a19b-961bd125cdb8][Large Batch Training]].
+useful in {[Large Batch Training]}.
 
 #+downloaded: screenshot @ 2020-02-05 23:05:00
 [[file:images/gpipe/screenshot2020-02-05_23-05-00_.png]]

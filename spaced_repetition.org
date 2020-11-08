@@ -3,7 +3,7 @@
 :END:
 #+title: Spaced Repetition
 
-- tags :: [[id:563dcf37-472a-4203-b037-5a1635084ae9][Productivity]]
+- tags :: {[Productivity]}
 
 #+begin_quote
 what srs does is makes it easier to reconstruct a graph on the fly, by

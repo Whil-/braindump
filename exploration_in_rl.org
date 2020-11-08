@@ -3,7 +3,7 @@
 :END:
 #+title: Exploration In Reinforcement Learning
 
-In [[id:be63d7a1-322e-40df-a184-90ad2b8aabb4][Reinforcement Learning]], exploration is important where rewards
+In {[Reinforcement Learning]}, exploration is important where rewards
 are sparse, and not a direct indication of how good an action is. Some
 environments where good exploration is necessary is Montezuma's
 revenge, where finishing a game only weakly correlates with rewarding

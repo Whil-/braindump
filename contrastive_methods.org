@@ -5,7 +5,7 @@
 #+title: Contrastive Methods
 
 Contrastive methods learn representations by contrasting positive and negative
-examples. This is one of methods used in [[id:eecde484-c101-40f6-a099-9cf4a95b832a][Self-supervised Learning]].
+examples. This is one of methods used in {[Self-supervised Learning]}.
 
 The goal is to learn an encoder $f$ such that:
 

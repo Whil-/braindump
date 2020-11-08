@@ -3,7 +3,7 @@
 :END:
 #+title: SSNLP Conference Notes
 
-- tags :: [[id:4a817202-7d27-43c8-90a7-8417d38c731b][Natural Language Processing]]
+- tags :: {[Natural Language Processing]}
 
 * AliNLP: the Text Processing Engine that Powers Alibaba's Business Applications
 

@@ -3,7 +3,7 @@
 :END:
 #+title: VC-Dimension
 
-- tags :: [[id:26dd708c-44ba-4f4f-89d6-e40839693fb9][The Bias-Complexity Tradeoff]], [[id:b35169d4-1829-401d-a473-0827592b2b78][PAC Learning]]
+- tags :: {[The Bias-Complexity Tradeoff]}, {[PAC Learning]}
 
 cite:shalev2014understanding
 

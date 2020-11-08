@@ -10,8 +10,8 @@ Python is an interpreted, general-purpose, high-level {[Programming Languages]}.
 - garbage-collected
 
 * Index
-- [[id:09302077-32c2-4bbe-a2c3-4d7000a5e8aa][Python Import Resolution]]
-- [[id:73b06202-fa44-452c-9a5b-acc7889b2fdb][Python Default Parameter Values]]
+- {[Python Import Resolution]}
+- {[Python Default Parameter Values]}
 
 * Python Books
 ** TODO [[https://www.goodreads.com/book/show/22800567-fluent-python?ac=1&from_search=true&qid=Fo3rzgCJBZ&rank=1][Fluent Python]]

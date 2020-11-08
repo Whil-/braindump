@@ -3,7 +3,7 @@
 :END:
 #+title: Deep Learning Tools
 
-- tags :: [[id:d08c28f3-9c67-4ae5-b3b2-af600a1173c0][Deep Learning]]
+- tags :: {[Deep Learning]}
 
 * Tensorflow
 ** What is Tensorflow

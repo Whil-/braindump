@@ -3,7 +3,7 @@
 :END:
 #+title: Datacouncil.ai Conference Notes
 
-- tags :: [[id:ce4150a8-2082-4f49-ad40-aac2943dfe07][Data Science]]
+- tags :: {[Data Science]}
 
 * Taking recommendation technology to the masses - Le Zhang (Microsoft)
 

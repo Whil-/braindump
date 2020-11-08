@@ -4,4 +4,4 @@
 #+title: The most successful malleable system in history | Malleable Systems Collective
 #+roam_key: https://malleable.systems/blog/2020/04/01/the-most-successful-malleable-system-in-history/
 
-[[id:92f58861-2e04-43c9-8246-7cb4f4aaae66][Emacs]] as a [[https://malleable.systems/mission/][malleable system]].
+{[Emacs]} as a [[https://malleable.systems/mission/][malleable system]].

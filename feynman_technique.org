@@ -3,4 +3,4 @@
 :END:
 #+title: Feynman Technique
 
-- tags :: [[id:915ee121-8a13-46dd-9005-73eba3f730a2][Richard Feynman]]
+- tags :: {[Richard Feynman]}

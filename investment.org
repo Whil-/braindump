@@ -3,5 +3,5 @@
 :END:
 #+title: Investment
 
-- [[id:b37ead31-5908-4a42-9e77-8343d8d0ae35][Investing In ETFs]]
-- [[id:1c59a56f-d466-462d-b309-9964addfa081][Portfolio Composition]]
+- {[Investing In ETFs]}
+- {[Portfolio Composition]}

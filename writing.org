@@ -3,8 +3,8 @@
 :END:
 #+title: Writing
 
-- [[id:b892f37d-1ba1-4b2f-812c-1d0c5cfdecff][Writing Books]]
-- [[id:aa9bce5c-e59e-4c04-9bcd-941fa0a76c95][Writing Articles]]
+- {[Writing Books]}
+- {[Writing Articles]}
 
 * Books
 

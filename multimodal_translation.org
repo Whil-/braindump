@@ -3,7 +3,7 @@
 :END:
 #+title: Multi-modal Translation
 
-Multi-modal translation is a sub-challenge in [[id:c436cacf-5630-4dc6-99ff-e99d9484f85a][Multi-modal Machine Learning]], involving the translation of one modality to another. Some
+Multi-modal translation is a sub-challenge in {[Multi-modal Machine Learning]}, involving the translation of one modality to another. Some
 applications of multi-modal translation involve speech synthesis,
 video description, and cross-modal retrieval. Image and video
 captioning is a particularly popular problem, with large multi-modal

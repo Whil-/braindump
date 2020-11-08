@@ -3,7 +3,7 @@
 :END:
 #+title: Zettelkasten
 
-- tags :: [[id:563dcf37-472a-4203-b037-5a1635084ae9][Productivity]], [[id:05a63abc-36d6-4a04-8693-bd1bfd5c46c8][Note-taking]]
+- tags :: {[Productivity]}, {[Note-taking]}
 
 * The original Zettelkasten Method
 
@@ -22,7 +22,7 @@ topic, but more of an entry point.
 
 - fleeting :: notes taken as a reminder of what's in your head. These
   are to be removed after some time
-  - In [[id:71b27c1b-b851-4128-a5d5-1fed8dd900bb][Roam Research]] and Org-roam, make fleeting notes in daily notes
+  - In {[Roam Research]} and Org-roam, make fleeting notes in daily notes
 - project-related :: notes related to a project
 - permanent :: notes that are standalone, and make sense in their own context.
 
