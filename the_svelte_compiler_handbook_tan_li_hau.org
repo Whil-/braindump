@@ -11,4 +11,4 @@ Svelte's compilation process can be broken down into 4 steps:
 - tracking references and dependencies
 - creating code blocks and fragments
 - generating code
-*** Test link to: [[id:d5337a2c-871b-4761-b625-0f304fb46def][Web Development]]
+*** Test link to: [[id:d5337a2c-871b-4761-b625-0f304fb46def][web-development]]
