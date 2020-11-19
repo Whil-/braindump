@@ -152,22 +152,23 @@ with which $s'$ is reached when executing $a$ in $s$.
 
 #+caption: A passive RL agent based on ADP.
 #+begin_src text
-  function PASSIVE-ADP_AGENT(percept) returns an action
-    inputs: percept, indicating state s' and reward signal r'
-    persistent: \pi, a fixed policy
-      mdp: MDP with model P, rewards R, and discount \gamma
-      U: a table of utilities, initially empty
-      N_{sa}: a table of frequencies for each state-action pair
-      N_{s'|s,a}: a table of outcome frequencies
-      s, a: the previous state and action
-    if s' is new then $U[s'] <- r'; R[s'] <- r'
-    if s is not null then
-      increment N_{sa}[s, a] and N_{s'|s,a}[s', s, a]
-      for each t such that N_{s'|s, a}[t,s,a] is nonzero do
-        P(t|s, a) <- N_{s'|s, a}[t,s,a] / N_{sa}[s, a]
-      U <- POLICY-EVALUATION(\pi, U, mdp)
-    if s'.TERMINAL? then s,a <- null else s,a <- s', \pi[s']
-    return a
+
+function PASSIVE-ADP_AGENT(percept) returns an action
+  inputs: percept, indicating state s' and reward signal r'
+  persistent: \pi, a fixed policy
+    mdp: MDP with model P, rewards R, and discount \gamma
+    U: a table of utilities, initially empty
+    N_{sa}: a table of frequencies for each state-action pair
+    N_{s'|s,a}: a table of outcome frequencies
+    s, a: the previous state and action
+  if s' is new then $U[s'] <- r'; R[s'] <- r'
+  if s is not null then
+    increment N_{sa}[s, a] and N_{s'|s,a}[s', s, a]
+    for each t such that N_{s'|s, a}[t,s,a] is nonzero do
+      P(t|s, a) <- N_{s'|s, a}[t,s,a] / N_{sa}[s, a]
+    U <- POLICY-EVALUATION(\pi, U, mdp)
+  if s'.TERMINAL? then s,a <- null else s,a <- s', \pi[s']
+  return a
 #+end_src
 
 This approach is computationally intractable for large state spaces.
@@ -183,7 +184,6 @@ Another approach, derived from robust control theory, allows for a set
 of possible models $H$ and defines an optimal robust policy as one
 that gives the best outcome in the worst case over $H$: $\pi^* =
 argmax_\pi min_h u_h^\pi$.
-
 ** Temporal-difference Learning
 
 TD learning involves using the observed transitions to adjust the
