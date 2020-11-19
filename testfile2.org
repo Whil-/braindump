@@ -13,5 +13,4 @@ Link to [[id:71bc9343-b4dd-41d1-a39e-94336fb222d8][Some title]]
 
 * Another link to the heading:
 [[id:02360d72-0c3d-421d-b6c4-bc3cf83aedbf][Heading in other file]]
-* ((02360d72-0c3d-421d-b6c4-bc3cf83aedbf))
 *
