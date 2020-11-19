@@ -4,4 +4,7 @@
 #+TITLE: Some title
 Some content
 * A heading
+:PROPERTIES:
+:ID: 02360d72-0c3d-421d-b6c4-bc3cf83aedbf
+:END:
 Some more content
