@@ -2,6 +2,8 @@
 :ID: 7d31f41a-3f03-4ddf-bfcf-eec2740bb51e
 :END:
 #+TITLE: Some title 2
+- tags :: [[id:71bc9343-b4dd-41d1-a39e-94336fb222d8][Some-title]]
+
 Some content
 
 * A heading 2
