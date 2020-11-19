@@ -3,6 +3,5 @@
 :END:
 #+TITLE: Some title
 Some content
-
 * A heading
 Some more content
