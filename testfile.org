@@ -8,3 +8,5 @@ Some content
 :ID: 02360d72-0c3d-421d-b6c4-bc3cf83aedbf
 :END:
 Some more content
+
+Link to other file with non-GUID ID link: [[id:20201119T181500.000000][Heading in other file]]
